@@ -4,4 +4,5 @@ Repository contains my solutions for Bilkent University's Fundamental Structures
 
 ## Homework Assignments:
 
-- `Homework 1`: Algorithm Efficiency a
+- `Homework 1`: Algorithm Efficiency and Sorting
+    - `Topics`: Solving recurrence relationships, Selection sort, Ins
