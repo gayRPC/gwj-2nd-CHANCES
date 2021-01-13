@@ -6,4 +6,6 @@ Repository contains my solutions for Bilkent University's Fundamental Structures
 
 - `Homework 1`: Algorithm Efficiency and Sorting
     - `Topics`: Solving recurrence relationships, Selection sort, Insertion sort, Bubble sort, Quick sort, Merge sort, Radix sort
-    - Performance Analysis on
+    - Performance Analysis on various data types
+- `Homework 2`: Binary Search Trees
+    - `Topics`: BST insertion, deletion, traver
