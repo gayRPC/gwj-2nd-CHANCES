@@ -8,4 +8,7 @@ Repository contains my solutions for Bilkent University's Fundamental Structures
     - `Topics`: Solving recurrence relationships, Selection sort, Insertion sort, Bubble sort, Quick sort, Merge sort, Radix sort
     - Performance Analysis on various data types
 - `Homework 2`: Binary Search Trees
-    - `Topics`: BST insertion, deletion, traver
+    - `Topics`: BST insertion, deletion, traversals
+    - `Interesting Problems`:
+    - Check whether an array sequence contained within BST
+    
