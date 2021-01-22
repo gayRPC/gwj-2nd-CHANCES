@@ -12,4 +12,5 @@ Repository contains my solutions for Bilkent University's Fundamental Structures
     - `Interesting Problems`:
     - Check whether an array sequence contained within BST
     - Counting nodes deeper than a specific level
-    - Maximum height of the balanced tree if w
+    - Maximum height of the balanced tree if we remove minimum number of nodes from the current tree to make it height balanced.
+- `Homework 3`
