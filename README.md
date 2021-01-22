@@ -11,4 +11,5 @@ Repository contains my solutions for Bilkent University's Fundamental Structures
     - `Topics`: BST insertion, deletion, traversals
     - `Interesting Problems`:
     - Check whether an array sequence contained within BST
-    
+    - Counting nodes deeper than a specific level
+    - Maximum height of the balanced tree if w
