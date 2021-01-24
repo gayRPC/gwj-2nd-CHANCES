@@ -15,4 +15,7 @@ Repository contains my solutions for Bilkent University's Fundamental Structures
     - Maximum height of the balanced tree if we remove minimum number of nodes from the current tree to make it height balanced.
 - `Homework 3`: Heaps and AVL Trees
     - `Topics`: AVL Tree operations, Heap operations
-    - `Interesting Pro
+    - `Interesting Problems`:
+    - Finding median in O(1) time using a max-heap and a min-heap
+    - Huffman Coding
+- `Hom
