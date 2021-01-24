@@ -13,4 +13,6 @@ Repository contains my solutions for Bilkent University's Fundamental Structures
     - Check whether an array sequence contained within BST
     - Counting nodes deeper than a specific level
     - Maximum height of the balanced tree if we remove minimum number of nodes from the current tree to make it height balanced.
-- `Homework 3`
+- `Homework 3`: Heaps and AVL Trees
+    - `Topics`: AVL Tree operations, Heap operations
+    - `Interesting Pro
