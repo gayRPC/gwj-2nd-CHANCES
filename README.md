@@ -18,4 +18,5 @@ Repository contains my solutions for Bilkent University's Fundamental Structures
     - `Interesting Problems`:
     - Finding median in O(1) time using a max-heap and a min-heap
     - Huffman Coding
-- `Hom
+- `Homework 4`: Balanced Search Trees, Hashing and Graphs
+    - `Topics`: Expected running ti
