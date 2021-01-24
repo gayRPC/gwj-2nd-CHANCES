@@ -19,4 +19,6 @@ Repository contains my solutions for Bilkent University's Fundamental Structures
     - Finding median in O(1) time using a max-heap and a min-heap
     - Huffman Coding
 - `Homework 4`: Balanced Search Trees, Hashing and Graphs
-    - `Topics`: Expected running ti
+    - `Topics`: Expected running times of unsorted array, red-black tree, hashing, min-heap, sorted linked list,
+    - Graph traversals
+    -
