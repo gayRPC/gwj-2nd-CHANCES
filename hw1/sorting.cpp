@@ -12,4 +12,9 @@ using namespace std;
 
 // BUBBLE SORT
 void swap(int &a, int &b){
-    int
+    int temp = a;
+    a = b;
+    b = temp;
+}
+
+void bubbleSort(int *arr, int size, int 
