@@ -17,4 +17,7 @@ void swap(int &a, int &b){
     b = temp;
 }
 
-void bubbleSort(int *arr, int size, int 
+void bubbleSort(int *arr, int size, int &compCount, int &moveCount){
+    int boundary = size - 2;
+    while (boundary >= 0) {
+        f
