@@ -20,4 +20,6 @@ void swap(int &a, int &b){
 void bubbleSort(int *arr, int size, int &compCount, int &moveCount){
     int boundary = size - 2;
     while (boundary >= 0) {
-        f
+        for (int i = 0; i <= boundary; i++) {
+            if (arr[i] > arr[i+1]) {
+     
