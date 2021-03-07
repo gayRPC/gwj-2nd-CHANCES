@@ -22,4 +22,6 @@ void bubbleSort(int *arr, int size, int &compCount, int &moveCount){
     while (boundary >= 0) {
         for (int i = 0; i <= boundary; i++) {
             if (arr[i] > arr[i+1]) {
-     
+                swap(arr[i], arr[i+1]);
+                // swap makes 3 data moves
+            
