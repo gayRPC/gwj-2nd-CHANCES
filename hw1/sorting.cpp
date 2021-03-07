@@ -26,4 +26,13 @@ void bubbleSort(int *arr, int size, int &compCount, int &moveCount){
                 // swap makes 3 data moves
                 moveCount += 3;
             }
-            // comparison arr[i] > arr[i+1
+            // comparison arr[i] > arr[i+1]
+            compCount++;
+        }
+        boundary -= 1;
+    }
+}
+
+
+// MERGE SORT
+void mergeSort(int *arr
