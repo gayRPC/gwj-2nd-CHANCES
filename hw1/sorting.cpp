@@ -24,4 +24,6 @@ void bubbleSort(int *arr, int size, int &compCount, int &moveCount){
             if (arr[i] > arr[i+1]) {
                 swap(arr[i], arr[i+1]);
                 // swap makes 3 data moves
-            
+                moveCount += 3;
+            }
+            // comparison arr[i] > arr[i+1
