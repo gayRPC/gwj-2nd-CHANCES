@@ -35,4 +35,7 @@ void bubbleSort(int *arr, int size, int &compCount, int &moveCount){
 
 
 // MERGE SORT
-void mergeSort(int *arr
+void mergeSort(int *arr, int size, int &compCount, int &moveCount){
+    mergeSort(arr, 0, size-1, compCount, moveCount);
+}
+
