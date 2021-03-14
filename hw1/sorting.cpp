@@ -39,3 +39,6 @@ void mergeSort(int *arr, int size, int &compCount, int &moveCount){
     mergeSort(arr, 0, size-1, compCount, moveCount);
 }
 
+
+void mergeSort(int *arr, int start, int end, int &compCount, int &moveCount){
+    if (star
