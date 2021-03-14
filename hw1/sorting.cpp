@@ -41,4 +41,8 @@ void mergeSort(int *arr, int size, int &compCount, int &moveCount){
 
 
 void mergeSort(int *arr, int start, int end, int &compCount, int &moveCount){
-    if (star
+    if (start != end) {
+        // step1: divide from middle
+        int mid = (start + end) / 2;
+
+   
