@@ -45,4 +45,5 @@ void mergeSort(int *arr, int start, int end, int &compCount, int &moveCount){
         // step1: divide from middle
         int mid = (start + end) / 2;
 
-   
+        mergeSort(arr, start, mid, compCount, moveCount);
+        mergeSort(arr, mid + 1, 
