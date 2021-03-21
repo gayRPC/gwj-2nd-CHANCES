@@ -49,4 +49,9 @@ void mergeSort(int *arr, int start, int end, int &compCount, int &moveCount){
         mergeSort(arr, mid + 1, end, compCount, moveCount);
 
         // step2: conquer the divided steps
-  
+        merge(arr, start, mid, end, compCount, moveCount);
+    }
+}
+
+
+void merge(int *arr, int 
