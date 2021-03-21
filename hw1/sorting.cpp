@@ -46,4 +46,7 @@ void mergeSort(int *arr, int start, int end, int &compCount, int &moveCount){
         int mid = (start + end) / 2;
 
         mergeSort(arr, start, mid, compCount, moveCount);
-        mergeSort(arr, mid + 1, 
+        mergeSort(arr, mid + 1, end, compCount, moveCount);
+
+        // step2: conquer the divided steps
+  
