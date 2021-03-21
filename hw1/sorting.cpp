@@ -55,4 +55,8 @@ void mergeSort(int *arr, int start, int end, int &compCount, int &moveCount){
 
 
 void merge(int *arr, int start, int mid, int end, int &compCount, int &moveCount){
-    // pointer to the first ha
+    // pointer to the first half
+    int p1 = start;
+    // pointer to the second half
+    int p2 = mid+1;
+    int 
