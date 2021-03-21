@@ -54,4 +54,5 @@ void mergeSort(int *arr, int start, int end, int &compCount, int &moveCount){
 }
 
 
-void merge(int *arr, int 
+void merge(int *arr, int start, int mid, int end, int &compCount, int &moveCount){
+    // pointer to the first ha
