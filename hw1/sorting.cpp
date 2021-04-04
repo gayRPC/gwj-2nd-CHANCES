@@ -59,4 +59,6 @@ void merge(int *arr, int start, int mid, int end, int &compCount, int &moveCount
     int p1 = start;
     // pointer to the second half
     int p2 = mid+1;
-    int 
+    int *temp = new int[end - start + 1];
+    int cnt = 0;
+    while (p1 <= (mid) && p2 <= end) {
