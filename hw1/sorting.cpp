@@ -62,3 +62,6 @@ void merge(int *arr, int start, int mid, int end, int &compCount, int &moveCount
     int *temp = new int[end - start + 1];
     int cnt = 0;
     while (p1 <= (mid) && p2 <= end) {
+        if (arr[p2] < arr[p1]) {
+            temp[cnt++] = arr[p2];
+            p2 += 1;
