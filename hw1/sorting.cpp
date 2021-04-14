@@ -65,3 +65,8 @@ void merge(int *arr, int start, int mid, int end, int &compCount, int &moveCount
         if (arr[p2] < arr[p1]) {
             temp[cnt++] = arr[p2];
             p2 += 1;
+        } else {
+            temp[cnt++] = arr[p1];
+            p1 += 1;
+        }
+        // 1
