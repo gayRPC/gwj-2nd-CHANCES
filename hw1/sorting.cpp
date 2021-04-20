@@ -74,4 +74,5 @@ void merge(int *arr, int start, int mid, int end, int &compCount, int &moveCount
         // 1 data movement
         moveCount++;
     }
-    // check 
+    // check remeaning element in the first half
+    // NOTE: p1 <= (mid) is not an array element co
