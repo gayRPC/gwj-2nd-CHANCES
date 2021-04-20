@@ -69,4 +69,9 @@ void merge(int *arr, int start, int mid, int end, int &compCount, int &moveCount
             temp[cnt++] = arr[p1];
             p1 += 1;
         }
-        // 1
+        // 1 comparison
+        compCount++;
+        // 1 data movement
+        moveCount++;
+    }
+    // check 
