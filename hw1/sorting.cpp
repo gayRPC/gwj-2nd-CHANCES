@@ -75,4 +75,7 @@ void merge(int *arr, int start, int mid, int end, int &compCount, int &moveCount
         moveCount++;
     }
     // check remeaning element in the first half
-    // NOTE: p1 <= (mid) is not an array element co
+    // NOTE: p1 <= (mid) is not an array element comparison it is an index comparison
+    while (p1 <= (mid)) {
+        temp[cnt++] = arr[p1];
+   
