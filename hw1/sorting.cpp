@@ -93,4 +93,8 @@ void merge(int *arr, int start, int mid, int end, int &compCount, int &moveCount
 
     // copy elements over into the original array
     for (int i = 0; i < (cnt); i++) {
-        arr[i + 
+        arr[i + start] = temp[i];
+        // 1 data movement
+        moveCount++;
+    }
+    // deallocate the 
