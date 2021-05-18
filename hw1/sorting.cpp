@@ -91,4 +91,6 @@ void merge(int *arr, int start, int mid, int end, int &compCount, int &moveCount
         moveCount++;
     }
 
-    // 
+    // copy elements over into the original array
+    for (int i = 0; i < (cnt); i++) {
+        arr[i + 
