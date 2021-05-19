@@ -97,4 +97,9 @@ void merge(int *arr, int start, int mid, int end, int &compCount, int &moveCount
         // 1 data movement
         moveCount++;
     }
-    // deallocate the 
+    // deallocate the space
+    delete [] temp;
+}
+
+// QUICK SORT
+void quickSort(int *arr, int size, int &compCount, int &moveCount){
