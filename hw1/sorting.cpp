@@ -106,4 +106,6 @@ void quickSort(int *arr, int size, int &compCount, int &moveCount){
     quickSort( arr, 0, size-1, compCount, moveCount);
 }
 
-void quickSort(int *arr, int
+void quickSort(int *arr, int start, int end, int &compCount, int &moveCount){
+    // choose the first element as pivot
+ 
