@@ -108,4 +108,7 @@ void quickSort(int *arr, int size, int &compCount, int &moveCount){
 
 void quickSort(int *arr, int start, int end, int &compCount, int &moveCount){
     // choose the first element as pivot
- 
+    int pivotIdx;
+    // divide the array from the partition
+    if (start < end) {
+        // d
