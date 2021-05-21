@@ -103,3 +103,7 @@ void merge(int *arr, int start, int mid, int end, int &compCount, int &moveCount
 
 // QUICK SORT
 void quickSort(int *arr, int size, int &compCount, int &moveCount){
+    quickSort( arr, 0, size-1, compCount, moveCount);
+}
+
+void quickSort(int *arr, int
