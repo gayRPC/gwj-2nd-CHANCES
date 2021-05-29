@@ -111,4 +111,6 @@ void quickSort(int *arr, int start, int end, int &compCount, int &moveCount){
     int pivotIdx;
     // divide the array from the partition
     if (start < end) {
-        // d
+        // divide from the pivot
+        // start, pivot, end
+        partition(arr, start, end, 
