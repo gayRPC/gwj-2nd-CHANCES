@@ -113,4 +113,7 @@ void quickSort(int *arr, int start, int end, int &compCount, int &moveCount){
     if (start < end) {
         // divide from the pivot
         // start, pivot, end
-        partition(arr, start, end, 
+        partition(arr, start, end, pivotIdx, compCount, moveCount);
+
+        // sort the first half of the array
+        quickSo
