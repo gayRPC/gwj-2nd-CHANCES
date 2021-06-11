@@ -116,4 +116,5 @@ void quickSort(int *arr, int start, int end, int &compCount, int &moveCount){
         partition(arr, start, end, pivotIdx, compCount, moveCount);
 
         // sort the first half of the array
-        quickSo
+        quickSort(arr, start, pivotIdx - 1, compCount, moveCount);
+        quickSort(arr, pivotIdx
