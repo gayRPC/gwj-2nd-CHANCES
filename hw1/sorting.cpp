@@ -122,4 +122,6 @@ void quickSort(int *arr, int start, int end, int &compCount, int &moveCount){
 }
 
 
-void partition(int *arr, int start, int end, int &pivo
+void partition(int *arr, int start, int end, int &pivotIdx, int &compCount, int &moveCount){
+    // initially pivot is unknown
+    // you can code a 
