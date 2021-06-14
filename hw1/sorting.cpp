@@ -125,4 +125,7 @@ void quickSort(int *arr, int start, int end, int &compCount, int &moveCount){
 void partition(int *arr, int start, int end, int &pivotIdx, int &compCount, int &moveCount){
     // initially pivot is unknown
     // you can code a choose pivot function as well, if you know your your data well
-    // Choosing pivot as first elem
+    // Choosing pivot as first element just like did in class
+    int pivot = arr[start];
+    // data move (assigning pivot)
+ 
