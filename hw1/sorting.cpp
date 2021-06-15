@@ -128,4 +128,9 @@ void partition(int *arr, int start, int end, int &pivotIdx, int &compCount, int 
     // Choosing pivot as first element just like did in class
     int pivot = arr[start];
     // data move (assigning pivot)
- 
+    moveCount++;
+
+    int endS1 = start;
+    int firstUnknown = start + 1;
+
+    // iterate through the unkn
