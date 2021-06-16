@@ -133,4 +133,6 @@ void partition(int *arr, int start, int end, int &pivotIdx, int &compCount, int 
     int endS1 = start;
     int firstUnknown = start + 1;
 
-    // iterate through the unkn
+    // iterate through the unknown portion of the array
+    while (firstUnknown <=  end) {
+        if (arr[firstUnknown] < 
