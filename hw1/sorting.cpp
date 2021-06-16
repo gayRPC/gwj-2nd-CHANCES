@@ -141,4 +141,6 @@ void partition(int *arr, int start, int end, int &pivotIdx, int &compCount, int 
             // swap makes 3 data moves
             moveCount += 3;
         }
-        // 
+        // it belongs to the other array no need to swap
+        // comparison: arr[i] < pivot
+      
