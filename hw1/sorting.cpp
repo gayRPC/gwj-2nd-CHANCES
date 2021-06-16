@@ -135,4 +135,6 @@ void partition(int *arr, int start, int end, int &pivotIdx, int &compCount, int 
 
     // iterate through the unknown portion of the array
     while (firstUnknown <=  end) {
-        if (arr[firstUnknown] < 
+        if (arr[firstUnknown] < pivot) { // element < pivot
+            endS1++;
+            swap(arr[firstUnknown], arr[end
