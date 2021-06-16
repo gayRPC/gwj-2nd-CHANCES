@@ -137,4 +137,8 @@ void partition(int *arr, int start, int end, int &pivotIdx, int &compCount, int 
     while (firstUnknown <=  end) {
         if (arr[firstUnknown] < pivot) { // element < pivot
             endS1++;
-            swap(arr[firstUnknown], arr[end
+            swap(arr[firstUnknown], arr[endS1]);
+            // swap makes 3 data moves
+            moveCount += 3;
+        }
+        // 
