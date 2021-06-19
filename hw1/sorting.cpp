@@ -143,4 +143,7 @@ void partition(int *arr, int start, int end, int &pivotIdx, int &compCount, int 
         }
         // it belongs to the other array no need to swap
         // comparison: arr[i] < pivot
-      
+        compCount++;
+        firstUnknown++;
+    }
+    // place the pivot to the proper plac
