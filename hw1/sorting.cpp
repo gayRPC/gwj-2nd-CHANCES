@@ -149,4 +149,9 @@ void partition(int *arr, int start, int end, int &pivotIdx, int &compCount, int 
     // place the pivot to the proper place in the array
     swap(arr[start], arr[endS1]);
     // swap makes 3 data moves
-    mov
+    moveCount += 3;
+    pivotIdx = endS1;
+}
+
+// Performance Analysis helper function function
+vo
