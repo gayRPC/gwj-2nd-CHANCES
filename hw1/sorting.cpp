@@ -146,4 +146,7 @@ void partition(int *arr, int start, int end, int &pivotIdx, int &compCount, int 
         compCount++;
         firstUnknown++;
     }
-    // place the pivot to the proper plac
+    // place the pivot to the proper place in the array
+    swap(arr[start], arr[endS1]);
+    // swap makes 3 data moves
+    mov
