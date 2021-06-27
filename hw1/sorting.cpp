@@ -155,4 +155,6 @@ void partition(int *arr, int start, int end, int &pivotIdx, int &compCount, int 
 
 // Performance Analysis helper function function
 void createArrays(int *arr1, int *arr2, int *arr3, int *arr4, int size){
-    srand((int) time(NU
+    srand((int) time(NULL)); // random seed initialization
+    for (int i = 0; i < size; i++) {
+        int randNum
