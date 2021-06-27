@@ -158,4 +158,5 @@ void createArrays(int *arr1, int *arr2, int *arr3, int *arr4, int size){
     srand((int) time(NULL)); // random seed initialization
     for (int i = 0; i < size; i++) {
         int randNum = rand() % size + 1 ; // random number taking values in between [1:size]
-       
+        arr1[i] = randNum; // reserved for radix sort
+        arr2[i] = randNum; // res
