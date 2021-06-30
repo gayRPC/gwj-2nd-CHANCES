@@ -159,4 +159,6 @@ void createArrays(int *arr1, int *arr2, int *arr3, int *arr4, int size){
     for (int i = 0; i < size; i++) {
         int randNum = rand() % size + 1 ; // random number taking values in between [1:size]
         arr1[i] = randNum; // reserved for radix sort
-        arr2[i] = randNum; // res
+        arr2[i] = randNum; // reserved for bubble sort
+        arr3[i] = randNum; // reserved for quick sort
+        arr4[i] = randN
