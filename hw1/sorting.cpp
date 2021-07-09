@@ -168,4 +168,6 @@ void createArrays(int *arr1, int *arr2, int *arr3, int *arr4, int size){
 void printHeader(string algoType){
     if (algoType == "radixSort") {
         // print the time
-        cout << "-------------------------------
+        cout << "------------------------------------" << endl;
+        cout << "Part c - Time analysis of Radix Sort" << endl;
+        c
