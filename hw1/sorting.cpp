@@ -161,4 +161,8 @@ void createArrays(int *arr1, int *arr2, int *arr3, int *arr4, int size){
         arr1[i] = randNum; // reserved for radix sort
         arr2[i] = randNum; // reserved for bubble sort
         arr3[i] = randNum; // reserved for quick sort
-        arr4[i] = randN
+        arr4[i] = randNum; // reserved for merge sort
+    }
+}
+
+void printHeader(string algoType){
