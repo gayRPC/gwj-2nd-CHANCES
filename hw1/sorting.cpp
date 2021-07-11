@@ -175,3 +175,4 @@ void printHeader(string algoType){
         // print the time
         cout << "------------------------------------" << endl;
         cout << "Part c - Time analysis of Bubble Sort" << endl;
+        cout << "Array size" << setw(15) << "Time Elapsed" << setw(15) << "compCount" << s
