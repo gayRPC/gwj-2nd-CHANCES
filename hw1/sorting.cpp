@@ -170,4 +170,5 @@ void printHeader(string algoType){
         // print the time
         cout << "------------------------------------" << endl;
         cout << "Part c - Time analysis of Radix Sort" << endl;
-        c
+        cout << "Array size" << setw(15) << "Time Elapsed" << endl;
+    } else if (algoType == "
