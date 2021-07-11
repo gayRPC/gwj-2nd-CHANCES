@@ -173,4 +173,5 @@ void printHeader(string algoType){
         cout << "Array size" << setw(15) << "Time Elapsed" << endl;
     } else if (algoType == "bubbleSort") {
         // print the time
-        cout << "-----------------------------------
+        cout << "------------------------------------" << endl;
+        cout << "Part c - Time analysis of Bubble Sort" << endl;
