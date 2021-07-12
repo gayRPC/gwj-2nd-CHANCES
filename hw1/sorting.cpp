@@ -180,4 +180,5 @@ void printHeader(string algoType){
         // print the time
         cout << "------------------------------------" << endl;
         cout << "Part c - Time analysis of Quick Sort" << endl;
-        cout << "Array size" << setw(15) << "Time Elap
+        cout << "Array size" << setw(15) << "Time Elapsed" << setw(15) << "compCount" << setw(15) << "moveCount" << endl;
+    } else if(algoType =
