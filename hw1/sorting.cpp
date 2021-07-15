@@ -183,4 +183,5 @@ void printHeader(string algoType){
         cout << "Array size" << setw(15) << "Time Elapsed" << setw(15) << "compCount" << setw(15) << "moveCount" << endl;
     } else if(algoType == "mergeSort") {
         // print the time
-        cout << "--------------
+        cout << "------------------------------------" << endl;
+        cout << "Part c - Time analysis of Merge Sort" << endl
