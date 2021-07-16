@@ -185,4 +185,7 @@ void printHeader(string algoType){
         // print the time
         cout << "------------------------------------" << endl;
         cout << "Part c - Time analysis of Merge Sort" << endl;
-        cout << "Array size" << setw(15) << "Time Elapsed" << setw(15) << "compCount" << setw(15
+        cout << "Array size" << setw(15) << "Time Elapsed" << setw(15) << "compCount" << setw(15) << "moveCount" << endl;
+    } else {
+        // invalid algorithm
+        cout << "Invalid algorithm 
