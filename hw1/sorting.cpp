@@ -188,4 +188,8 @@ void printHeader(string algoType){
         cout << "Array size" << setw(15) << "Time Elapsed" << setw(15) << "compCount" << setw(15) << "moveCount" << endl;
     } else {
         // invalid algorithm
-        cout << "Invalid algorithm 
+        cout << "Invalid algorithm type...";
+    }
+}
+
+string printPerformanceOut(int * arr, int size, string alg
