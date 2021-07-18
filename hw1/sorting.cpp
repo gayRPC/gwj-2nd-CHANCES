@@ -192,4 +192,8 @@ void printHeader(string algoType){
     }
 }
 
-string printPerformanceOut(int * arr, int size, string alg
+string printPerformanceOut(int * arr, int size, string algoType){
+    int compCount = 0;
+    int moveCount = 0;
+    string result = "";
+    clock_t coun
