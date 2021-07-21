@@ -198,4 +198,7 @@ string printPerformanceOut(int * arr, int size, string algoType){
     string result = "";
     clock_t counter; // time elapsed
     if (algoType == "radixSort") {
-        counter = cloc
+        counter = clock();
+        radixSort(arr, size);
+        counter = clock() - counter;
+        double timeElapse
