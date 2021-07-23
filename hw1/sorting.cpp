@@ -201,4 +201,5 @@ string printPerformanceOut(int * arr, int size, string algoType){
         counter = clock();
         radixSort(arr, size);
         counter = clock() - counter;
-        double timeElapse
+        double timeElapsed = (double) counter * 1000 / CLOCKS_PER_SEC;
+        result  = to_string(size) + 
