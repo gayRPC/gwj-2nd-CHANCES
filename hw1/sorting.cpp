@@ -203,4 +203,7 @@ string printPerformanceOut(int * arr, int size, string algoType){
         counter = clock() - counter;
         double timeElapsed = (double) counter * 1000 / CLOCKS_PER_SEC;
         result  = to_string(size) + "           " + to_string(timeElapsed) + " ms";
-    } else if (algoType == "bubbleSort")
+    } else if (algoType == "bubbleSort") {
+        counter = clock();
+        bubbleSort(arr, size, compCount, moveCount);
+        coun
