@@ -206,4 +206,5 @@ string printPerformanceOut(int * arr, int size, string algoType){
     } else if (algoType == "bubbleSort") {
         counter = clock();
         bubbleSort(arr, size, compCount, moveCount);
-        coun
+        counter = clock() - counter;
+        double timeElapsed = (double) counter * 1000 / CLOCKS_PER
