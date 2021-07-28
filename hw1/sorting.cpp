@@ -202,4 +202,5 @@ string printPerformanceOut(int * arr, int size, string algoType){
         radixSort(arr, size);
         counter = clock() - counter;
         double timeElapsed = (double) counter * 1000 / CLOCKS_PER_SEC;
-        result  = to_string(size) + 
+        result  = to_string(size) + "           " + to_string(timeElapsed) + " ms";
+    } else if (algoType == "bubbleSort")
