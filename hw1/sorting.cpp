@@ -212,4 +212,6 @@ string printPerformanceOut(int * arr, int size, string algoType){
     } else if (algoType == "quickSort"){
         counter = clock();
         quickSort(arr, size, compCount, moveCount);
-        count
+        counter = clock() - counter;
+        double timeElapsed = (double) counter * 1000 / CLOCKS_PER_SEC;
+        result 
