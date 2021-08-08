@@ -214,4 +214,5 @@ string printPerformanceOut(int * arr, int size, string algoType){
         quickSort(arr, size, compCount, moveCount);
         counter = clock() - counter;
         double timeElapsed = (double) counter * 1000 / CLOCKS_PER_SEC;
-        result  = to_string(size) + "          " + to_string(timeElapsed) + " ms      " + to_s
+        result  = to_string(size) + "          " + to_string(timeElapsed) + " ms      " + to_string(compCount)+ "       " + to_string(moveCount);
+    } else if(algoType == "merge
