@@ -217,4 +217,6 @@ string printPerformanceOut(int * arr, int size, string algoType){
         result  = to_string(size) + "          " + to_string(timeElapsed) + " ms      " + to_string(compCount)+ "       " + to_string(moveCount);
     } else if(algoType == "mergeSort") {
         counter = clock();
-        mergeSort(arr, size, compCount, moveCount)
+        mergeSort(arr, size, compCount, moveCount);
+        counter = clock() - counter;
+        double timeElapsed = (double) counter * 1000
