@@ -231,4 +231,6 @@ string printPerformanceOut(int * arr, int size, string algoType){
 void getResult(int size, string *resArr){
     // alloc memory
     int *arr1 = new int[size];
-    int *
+    int *arr2 =  new int[size];
+    int *arr3 =  new int[size];
+    int *arr4 =  new int[
