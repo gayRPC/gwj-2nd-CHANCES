@@ -228,4 +228,7 @@ string printPerformanceOut(int * arr, int size, string algoType){
     return result;
 }
 
-void getRe
+void getResult(int size, string *resArr){
+    // alloc memory
+    int *arr1 = new int[size];
+    int *
