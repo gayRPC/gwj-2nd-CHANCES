@@ -233,4 +233,7 @@ void getResult(int size, string *resArr){
     int *arr1 = new int[size];
     int *arr2 =  new int[size];
     int *arr3 =  new int[size];
-    int *arr4 =  new int[
+    int *arr4 =  new int[size];
+    createArrays(arr1, arr2, arr3, arr4, size);
+    //printHeader("radixSort");
+    string
