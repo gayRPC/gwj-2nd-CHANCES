@@ -237,4 +237,5 @@ void getResult(int size, string *resArr){
     createArrays(arr1, arr2, arr3, arr4, size);
     //printHeader("radixSort");
     string res1 = printPerformanceOut(arr1, size, "radixSort");
-    string res2 = printPerformanceOut(arr2,
+    string res2 = printPerformanceOut(arr2, size, "bubbleSort");
+    string res3 = printPerformanceOut(arr3, size, "quickS
