@@ -254,4 +254,6 @@ void getResult(int size, string *resArr){
 
 void performanceAnalysis(){
     int algoSizes[8] = {2000, 6000, 10000, 14000, 18000, 22000, 26000, 30000};
-    //
+    // 2D array for storing the result
+    string resultArray[8][4];
+    for (int i = 0
