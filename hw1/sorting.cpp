@@ -243,3 +243,8 @@ void getResult(int size, string *resArr){
     // write result into an array of strings
     resArr[0] = res1;
     resArr[1] = res2;
+    resArr[2] = res3;
+    resArr[3] = res4;
+    // deallocate the memory
+    delete [] arr1;
+    
