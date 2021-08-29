@@ -247,4 +247,10 @@ void getResult(int size, string *resArr){
     resArr[3] = res4;
     // deallocate the memory
     delete [] arr1;
-    
+    delete [] arr2;
+    delete [] arr3;
+    delete [] arr4;
+}
+
+void performanceAnalysis(){
+ 
