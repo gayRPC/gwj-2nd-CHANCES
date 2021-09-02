@@ -269,4 +269,7 @@ void performanceAnalysis(){
         cout << resultArray[j][0] << endl;
     }
     printHeader("bubbleSort");
-    for (int j = 0
+    for (int j = 0; j < 8; j++) {
+        cout << resultArray[j][1] << endl;
+    }
+    printH
