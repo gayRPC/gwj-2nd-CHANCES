@@ -263,4 +263,7 @@ void performanceAnalysis(){
             resultArray[i][j] = resArr[j];
         }
     }
-    // s
+    // start the printing
+    printHeader("radixSort");
+    for (int j = 0; j < 8; j++) {
+ 
