@@ -259,4 +259,8 @@ void performanceAnalysis(){
     for (int i = 0; i < 8; i++) {
         string resArr[4];
         getResult(algoSizes[i], resArr);
-        for
+        for (int j = 0; j < 4; j++) {
+            resultArray[i][j] = resArr[j];
+        }
+    }
+    // s
