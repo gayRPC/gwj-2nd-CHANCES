@@ -274,4 +274,8 @@ void performanceAnalysis(){
     }
     printHeader("quickSort");
     for (int j = 0; j < 8; j++) {
-        cout <
+        cout << resultArray[j][2] << endl;
+    }
+    printHeader("mergeSort");
+    for (int j = 0; j < 8; j++) {
+  
