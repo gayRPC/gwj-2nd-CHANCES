@@ -288,4 +288,8 @@ void performanceAnalysis(){
 
 // Function determines how many digits.By Vitali Taken from: https://stackoverflow.com/questions/1489830/efficient-way-to-determine-number-of-digits-in-an-integer
 int numDigits(int number){
-    int d
+    int digits = 0;
+    if (number < 0){
+        digits = 1;
+    }
+    while (int(number !=
