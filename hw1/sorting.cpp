@@ -278,4 +278,12 @@ void performanceAnalysis(){
     }
     printHeader("mergeSort");
     for (int j = 0; j < 8; j++) {
-  
+        cout << resultArray[j][3] << endl;
+    }
+
+}
+
+
+// RADIX SORT
+
+// Function determines 
