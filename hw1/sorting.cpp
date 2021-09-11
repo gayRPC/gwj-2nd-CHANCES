@@ -286,4 +286,6 @@ void performanceAnalysis(){
 
 // RADIX SORT
 
-// Function determines how many digits.By Vitali Taken from: https://stackoverflow.com/questions/1489830/eff
+// Function determines how many digits.By Vitali Taken from: https://stackoverflow.com/questions/1489830/efficient-way-to-determine-number-of-digits-in-an-integer
+int numDigits(int number){
+    int d
