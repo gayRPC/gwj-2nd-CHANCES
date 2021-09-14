@@ -292,4 +292,11 @@ int numDigits(int number){
     if (number < 0){
         digits = 1;
     }
-    while (int(number !=
+    while (int(number != 0)) {
+        number /= 10;
+        digits++;
+    }
+    return digits;
+}
+
+int getMaxItemDigit(int *a
