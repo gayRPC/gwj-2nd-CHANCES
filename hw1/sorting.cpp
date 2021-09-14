@@ -302,3 +302,6 @@ int numDigits(int number){
 int getMaxItemDigit(int *arr, int size){
     int numDigit = numDigits(arr[0]);
     for (int i = 0; i < size; i++) {
+        if (numDigit < numDigits(arr[i]) ) {
+            numDigit = numDigits(arr[i]);
+     
