@@ -299,4 +299,6 @@ int numDigits(int number){
     return digits;
 }
 
-int getMaxItemDigit(int *a
+int getMaxItemDigit(int *arr, int size){
+    int numDigit = numDigits(arr[0]);
+    for (int i = 0; i < size; i++) {
