@@ -311,4 +311,8 @@ int getMaxItemDigit(int *arr, int size){
 
 
 void radixSort(int *arr, int size){
-    int 
+    int maxDigit = getMaxItemDigit(arr, size);
+    radixSort(arr, size, maxDigit);
+}
+
+void ra
