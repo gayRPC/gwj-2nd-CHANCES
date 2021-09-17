@@ -315,4 +315,6 @@ void radixSort(int *arr, int size){
     radixSort(arr, size, maxDigit);
 }
 
-void ra
+void radixSort(int *arr, int n, int numDigits){
+    for (int j = 0; j < numDigits ; j++) {
+       
