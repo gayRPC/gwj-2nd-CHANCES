@@ -318,4 +318,5 @@ void radixSort(int *arr, int size){
 void radixSort(int *arr, int n, int numDigits){
     for (int j = 0; j < numDigits ; j++) {
         int array[10][n]; // 2D Array initialized to 0
-        int countArray[10] = {
+        int countArray[10] = {0}; // Counter to count items in the arrays.
+        //cout << "DEBUG: ---j change ------" << 
