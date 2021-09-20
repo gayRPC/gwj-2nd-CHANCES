@@ -323,4 +323,6 @@ void radixSort(int *arr, int n, int numDigits){
         for (int i = 0; i < n; i++){
             // place the digit to the corresponding place
             int k  = ((int)(arr[i]/pow(10, j)))%10; // last digit
-            int p
+            int pos = countArray[((int)(arr[i]/pow(10, j)))%10]; // increment the number
+
+        
