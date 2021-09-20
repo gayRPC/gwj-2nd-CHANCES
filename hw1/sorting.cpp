@@ -321,4 +321,6 @@ void radixSort(int *arr, int n, int numDigits){
         int countArray[10] = {0}; // Counter to count items in the arrays.
         //cout << "DEBUG: ---j change ------" << endl;
         for (int i = 0; i < n; i++){
-            // place the digit to the corresponding p
+            // place the digit to the corresponding place
+            int k  = ((int)(arr[i]/pow(10, j)))%10; // last digit
+            int p
