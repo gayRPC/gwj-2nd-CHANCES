@@ -325,4 +325,5 @@ void radixSort(int *arr, int n, int numDigits){
             int k  = ((int)(arr[i]/pow(10, j)))%10; // last digit
             int pos = countArray[((int)(arr[i]/pow(10, j)))%10]; // increment the number
 
-        
+            //cout << "DEBUG: ---num elements in containers ------" << endl;
+            //p
