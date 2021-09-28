@@ -326,4 +326,7 @@ void radixSort(int *arr, int n, int numDigits){
             int pos = countArray[((int)(arr[i]/pow(10, j)))%10]; // increment the number
 
             //cout << "DEBUG: ---num elements in containers ------" << endl;
-            //p
+            //printArray(countArray, 10);
+            //printArray(array[k], 10);
+
+            
