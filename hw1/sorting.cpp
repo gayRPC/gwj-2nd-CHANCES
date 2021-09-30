@@ -329,4 +329,5 @@ void radixSort(int *arr, int n, int numDigits){
             //printArray(countArray, 10);
             //printArray(array[k], 10);
 
-            
+            array[ k ][pos] = arr[i]; // add the element to there
+            countArray[(
