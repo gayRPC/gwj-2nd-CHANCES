@@ -337,4 +337,6 @@ void radixSort(int *arr, int n, int numDigits){
         for (int i = 0; i < 10; i++) {
             // get the element write to the array
             int cur = 0;
-    
+            while(cur < countArray[i]){
+                arr[curPos++] = array[i][cur];
+               
