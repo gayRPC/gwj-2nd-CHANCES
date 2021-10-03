@@ -339,4 +339,11 @@ void radixSort(int *arr, int n, int numDigits){
             int cur = 0;
             while(cur < countArray[i]){
                 arr[curPos++] = array[i][cur];
-               
+                cur++;
+            }
+        }
+    }
+}
+
+// PRINT ARRAY
+void printArray(int *arr, int size)
