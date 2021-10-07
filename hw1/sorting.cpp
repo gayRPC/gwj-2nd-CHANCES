@@ -346,4 +346,8 @@ void radixSort(int *arr, int n, int numDigits){
 }
 
 // PRINT ARRAY
-void printArray(int *arr, int size)
+void printArray(int *arr, int size){
+    if (arr != NULL) {
+        cout << "[";
+        for(int i = 0; i < size-1; i++){
+    
