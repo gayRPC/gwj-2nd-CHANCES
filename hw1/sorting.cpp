@@ -353,4 +353,8 @@ void printArray(int *arr, int size){
             cout << arr[i] << ", ";
         }
         cout << arr[size-1];
-        c
+        cout << "]" << endl;
+    } else {
+        cout << "[]" << endl;
+    }
+}
