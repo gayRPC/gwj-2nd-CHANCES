@@ -11,4 +11,8 @@
 #define sorting_h
 
 #include <stdio.h>
-#includ
+#include <iostream>
+#include <string>
+#include <cmath>
+#include <time.h>  // for timer
+#include <stdlib.h>
