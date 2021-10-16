@@ -15,4 +15,8 @@
 #include <string>
 #include <cmath>
 #include <time.h>  // for timer
-#include <stdlib.h>
+#include <stdlib.h>  //rand
+#include <iomanip>
+using namespace std;
+/**
+ *  @brief Sorts an array in a
