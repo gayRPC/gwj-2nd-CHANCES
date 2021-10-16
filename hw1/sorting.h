@@ -19,4 +19,5 @@
 #include <iomanip>
 using namespace std;
 /**
- *  @brief Sorts an array in a
+ *  @brief Sorts an array in ascending order
+ *  Idea: array divided into (unsorted | sorted) subregions. Largest element bubble up 
