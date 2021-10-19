@@ -20,4 +20,6 @@
 using namespace std;
 /**
  *  @brief Sorts an array in ascending order
- *  Idea: array divided into (unsorted | sorted) subregions. Largest element bubble up 
+ *  Idea: array divided into (unsorted | sorted) subregions. Largest element bubble up with every iteration
+ *  Worst case: O(n^2)
+ *  Best case: O(n) where array "sorted" or
