@@ -22,4 +22,7 @@ using namespace std;
  *  @brief Sorts an array in ascending order
  *  Idea: array divided into (unsorted | sorted) subregions. Largest element bubble up with every iteration
  *  Worst case: O(n^2)
- *  Best case: O(n) where array "sorted" or
+ *  Best case: O(n) where array "sorted" order
+ *  Average case: O(n^2)
+ */
+void bubbleSort(int *arr, int size, int &compCount, int &moveC
