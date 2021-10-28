@@ -25,4 +25,8 @@ using namespace std;
  *  Best case: O(n) where array "sorted" order
  *  Average case: O(n^2)
  */
-void bubbleSort(int *arr, int size, int &compCount, int &moveC
+void bubbleSort(int *arr, int size, int &compCount, int &moveCount);
+
+/**
+ *  @brief Sorts an array in ascending order
+ *  Idea: array divided
