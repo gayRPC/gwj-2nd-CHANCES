@@ -31,4 +31,6 @@ void bubbleSort(int *arr, int size, int &compCount, int &moveCount);
  *  @brief Sorts an array in ascending order
  *  Idea: array divided into (<pivot | >pivot) subregions around chosen pivot.
  *  Worst case: O(n^2)
- *  Best case: O
+ *  Best case: O(n*log(n)) efficient pivot selection
+ *  Average case: O(n*log(n))
+ *  @param arr array to
