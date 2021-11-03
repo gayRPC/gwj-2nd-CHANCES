@@ -33,4 +33,6 @@ void bubbleSort(int *arr, int size, int &compCount, int &moveCount);
  *  Worst case: O(n^2)
  *  Best case: O(n*log(n)) efficient pivot selection
  *  Average case: O(n*log(n))
- *  @param arr array to
+ *  @param arr array to be sorted
+ *  @param size size of the array
+ *  @param compCount number of comparisons between
