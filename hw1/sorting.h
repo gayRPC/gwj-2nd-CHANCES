@@ -35,4 +35,7 @@ void bubbleSort(int *arr, int size, int &compCount, int &moveCount);
  *  Average case: O(n*log(n))
  *  @param arr array to be sorted
  *  @param size size of the array
- *  @param compCount number of comparisons between
+ *  @param compCount number of comparisons between array element
+ *  @param moveCount number of data moves
+ */
+void quickSort(int *arr, int size
