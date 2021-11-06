@@ -38,4 +38,8 @@ void bubbleSort(int *arr, int size, int &compCount, int &moveCount);
  *  @param compCount number of comparisons between array element
  *  @param moveCount number of data moves
  */
-void quickSort(int *arr, int size
+void quickSort(int *arr, int size, int &compCount, int &moveCount);
+
+
+/**
+ *  @brief Sorts an array in ascending order
