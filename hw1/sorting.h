@@ -45,4 +45,5 @@ void quickSort(int *arr, int size, int &compCount, int &moveCount);
  *  @brief Sorts an array in ascending order
  *  Idea: Divide array in half. Sort subarrays. Merge subarrays
  *  Worst case: O(n*log(n))
- *  Best cas
+ *  Best case: O(n*log(n)) Independent of the array sorted or not
+ *  Average case: O(n*log(n)) Independ
