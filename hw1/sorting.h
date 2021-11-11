@@ -46,4 +46,6 @@ void quickSort(int *arr, int size, int &compCount, int &moveCount);
  *  Idea: Divide array in half. Sort subarrays. Merge subarrays
  *  Worst case: O(n*log(n))
  *  Best case: O(n*log(n)) Independent of the array sorted or not
- *  Average case: O(n*log(n)) Independ
+ *  Average case: O(n*log(n)) Independent of the array sorted or not
+ *  @param arr array to be sorted
+ *  @param size size of t
