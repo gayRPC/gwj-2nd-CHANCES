@@ -48,4 +48,6 @@ void quickSort(int *arr, int size, int &compCount, int &moveCount);
  *  Best case: O(n*log(n)) Independent of the array sorted or not
  *  Average case: O(n*log(n)) Independent of the array sorted or not
  *  @param arr array to be sorted
- *  @param size size of t
+ *  @param size size of the array
+ *  @param compCount number of comparisons between array element
+ *  @param moveCount numb
