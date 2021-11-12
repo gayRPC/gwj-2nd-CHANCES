@@ -50,4 +50,6 @@ void quickSort(int *arr, int size, int &compCount, int &moveCount);
  *  @param arr array to be sorted
  *  @param size size of the array
  *  @param compCount number of comparisons between array element
- *  @param moveCount numb
+ *  @param moveCount number of data moves
+ */
+void mergeSort(int *arr, int size, int &compCount, int &moveCount);
