@@ -53,3 +53,7 @@ void quickSort(int *arr, int size, int &compCount, int &moveCount);
  *  @param moveCount number of data moves
  */
 void mergeSort(int *arr, int size, int &compCount, int &moveCount);
+
+/**
+ * Find the number in the array with the highest number of digits
+ * Create 
