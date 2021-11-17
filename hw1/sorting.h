@@ -56,4 +56,5 @@ void mergeSort(int *arr, int size, int &compCount, int &moveCount);
 
 /**
  * Find the number in the array with the highest number of digits
- * Create 
+ * Create 10 container (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+ * Starting from the least sig digit group the numbers wi
