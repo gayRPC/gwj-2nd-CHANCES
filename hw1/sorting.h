@@ -63,4 +63,8 @@ void radixSort(int *arr, int size);
 
 
 /**
- * @brief Prints contents of 
+ * @brief Prints contents of the array
+ * @param arr array to printed
+ * @param size of the arrat
+ */
+void printArray(
