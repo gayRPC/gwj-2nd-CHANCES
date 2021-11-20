@@ -67,4 +67,8 @@ void radixSort(int *arr, int size);
  * @param arr array to printed
  * @param size of the arrat
  */
-void printArray(
+void printArray(int *arr, int size);
+
+
+/**
+ * @brief Analyzes performance of algorithms and comparison counts togath
