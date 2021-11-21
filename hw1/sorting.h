@@ -71,4 +71,9 @@ void printArray(int *arr, int size);
 
 
 /**
- * @brief Analyzes performance of algorithms and comparison counts togath
+ * @brief Analyzes performance of algorithms and comparison counts togather with data movements
+ */
+void performanceAnalysis();
+
+// * * * * HELPER FUNCTIONS * * * * * * * * * *
+
