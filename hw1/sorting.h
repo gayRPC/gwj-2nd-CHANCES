@@ -77,3 +77,8 @@ void performanceAnalysis();
 
 // * * * * HELPER FUNCTIONS * * * * * * * * * *
 
+// MERGE SORT HELPERS
+
+/**
+ * @brief Helper merge function
+ * @param arr in
