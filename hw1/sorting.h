@@ -85,4 +85,7 @@ void performanceAnalysis();
  * @param start begin index (inclusive)
  * @param mid middle index
  * @param end last index (inclusive)
- * @param compCount number of comparisons between arr
+ * @param compCount number of comparisons between array element
+ * @param moveCount number of data moves
+ */
+void merge(int *arr, int start, int mid, 
