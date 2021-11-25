@@ -81,4 +81,7 @@ void performanceAnalysis();
 
 /**
  * @brief Helper merge function
- * @param arr in
+ * @param arr integer array
+ * @param start begin index (inclusive)
+ * @param mid middle index
+ * @param end las
