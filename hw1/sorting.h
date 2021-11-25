@@ -84,4 +84,5 @@ void performanceAnalysis();
  * @param arr integer array
  * @param start begin index (inclusive)
  * @param mid middle index
- * @param end las
+ * @param end last index (inclusive)
+ * @param compCount number of comparisons between arr
