@@ -88,4 +88,8 @@ void performanceAnalysis();
  * @param compCount number of comparisons between array element
  * @param moveCount number of data moves
  */
-void merge(int *arr, int start, int mid, 
+void merge(int *arr, int start, int mid, int end, int &compCount, int &moveCount);
+
+/**
+ * @brief Merge Sort algorithm
+ * @param arr integer array
