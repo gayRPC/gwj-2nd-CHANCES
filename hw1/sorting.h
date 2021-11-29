@@ -95,4 +95,7 @@ void merge(int *arr, int start, int mid, int end, int &compCount, int &moveCount
  * @param arr integer array
  * @param start begin index (inclusive)
  * @param end last index (exclusive)
- * @param compCount n
+ * @param compCount number of comparisons between array element
+ * @param moveCount number of data moves
+ */
+v
