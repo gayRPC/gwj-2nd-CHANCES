@@ -100,4 +100,9 @@ void merge(int *arr, int start, int mid, int end, int &compCount, int &moveCount
  */
 void mergeSort(int *arr, int start, int end, int &compCount, int &moveCount);
 
-// QU
+// QUICK SORT HELPERS
+
+/**
+ * @brief Quick Sort algorithm
+ * @param arr integer array
+ * @p
