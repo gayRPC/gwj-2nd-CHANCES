@@ -98,4 +98,6 @@ void merge(int *arr, int start, int mid, int end, int &compCount, int &moveCount
  * @param compCount number of comparisons between array element
  * @param moveCount number of data moves
  */
-v
+void mergeSort(int *arr, int start, int end, int &compCount, int &moveCount);
+
+// QU
