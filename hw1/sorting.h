@@ -105,4 +105,6 @@ void mergeSort(int *arr, int start, int end, int &compCount, int &moveCount);
 /**
  * @brief Quick Sort algorithm
  * @param arr integer array
- * @p
+ * @param start begin index (inclusive)
+ * @param end last index (inclusive)
+ * @param
