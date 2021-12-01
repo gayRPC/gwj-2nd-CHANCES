@@ -107,4 +107,5 @@ void mergeSort(int *arr, int start, int end, int &compCount, int &moveCount);
  * @param arr integer array
  * @param start begin index (inclusive)
  * @param end last index (inclusive)
- * @param
+ * @param compCount number of comparisons between array element
+ * @param moveCount
