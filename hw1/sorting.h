@@ -110,4 +110,8 @@ void mergeSort(int *arr, int start, int end, int &compCount, int &moveCount);
  * @param compCount number of comparisons between array element
  * @param moveCount number of data moves
  */
-void quickSort(int *arr, int start, int end, int &compCou
+void quickSort(int *arr, int start, int end, int &compCount, int &moveCount);
+
+/**
+ * @brief Helper partition function
+ * @param arr integ
