@@ -108,4 +108,6 @@ void mergeSort(int *arr, int start, int end, int &compCount, int &moveCount);
  * @param start begin index (inclusive)
  * @param end last index (inclusive)
  * @param compCount number of comparisons between array element
- * @param moveCount
+ * @param moveCount number of data moves
+ */
+void quickSort(int *arr, int start, int end, int &compCou
