@@ -120,3 +120,10 @@ void quickSort(int *arr, int start, int end, int &compCount, int &moveCount);
  */
 void partition(int *arr, int start, int end, int &pivotIdx, int &compCount, int &moveCount);
 
+/**
+ * @brief Helper SWAP
+ */
+void swap(int &a, int &b);
+
+
+// RAD
