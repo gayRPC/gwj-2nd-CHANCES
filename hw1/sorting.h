@@ -114,4 +114,7 @@ void quickSort(int *arr, int start, int end, int &compCount, int &moveCount);
 
 /**
  * @brief Helper partition function
- * @param arr integ
+ * @param arr integer array
+ * @param start begin index (inclusive)
+ * @param end last index (inclusive)
+ 
