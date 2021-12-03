@@ -117,4 +117,6 @@ void quickSort(int *arr, int start, int end, int &compCount, int &moveCount);
  * @param arr integer array
  * @param start begin index (inclusive)
  * @param end last index (inclusive)
- 
+ */
+void partition(int *arr, int start, int end, int &pivotIdx, int &compCount, int &moveCount);
+
