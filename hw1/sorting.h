@@ -126,4 +126,9 @@ void partition(int *arr, int start, int end, int &pivotIdx, int &compCount, int 
 void swap(int &a, int &b);
 
 
-// RAD
+// RADIX SORT HELPERS
+
+/**
+ * @brief Radix Sort helper
+ * @param number type(int)
+ * @return n
