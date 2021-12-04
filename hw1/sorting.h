@@ -131,4 +131,9 @@ void swap(int &a, int &b);
 /**
  * @brief Radix Sort helper
  * @param number type(int)
- * @return n
+ * @return numDigit number of digits of the number
+ */
+int numDigits(int number);
+
+/**
+ * @brief
