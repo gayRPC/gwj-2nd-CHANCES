@@ -136,4 +136,5 @@ void swap(int &a, int &b);
 int numDigits(int number);
 
 /**
- * @brief
+ * @brief Get the max element's num digits within the array
+ * @param arr array to get max
