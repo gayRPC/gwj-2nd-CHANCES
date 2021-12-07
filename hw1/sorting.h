@@ -143,4 +143,7 @@ int numDigits(int number);
 int getMaxItemDigit(int *arr, int n);
 
 /**
- * @brief 
+ * @brief Radix Sort helper
+ * @param arr array
+ * @param n size of the array
+ * @param numDigits number o
