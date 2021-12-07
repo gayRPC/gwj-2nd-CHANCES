@@ -137,4 +137,10 @@ int numDigits(int number);
 
 /**
  * @brief Get the max element's num digits within the array
- * @param arr array to get max
+ * @param arr array to get max element
+ * @param n size of the array
+ */
+int getMaxItemDigit(int *arr, int n);
+
+/**
+ * @brief 
