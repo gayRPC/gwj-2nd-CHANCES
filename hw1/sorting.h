@@ -162,4 +162,9 @@ void getResult(int size, string *resArr);
 
 
 /**
- * @brief Prints header for the al
+ * @brief Prints header for the algorithm of interest
+ */
+void printHeader(string algoType);
+
+/**
+ * @brief create random 
