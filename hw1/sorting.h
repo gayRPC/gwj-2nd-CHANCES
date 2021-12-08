@@ -158,4 +158,8 @@ string printPerformanceOut(int * arr, int size, string algoType);
 /**
  * @brief Obtain result for randomly generated arrays
  */
-void getResult(i
+void getResult(int size, string *resArr);
+
+
+/**
+ * @brief Prints header for the al
