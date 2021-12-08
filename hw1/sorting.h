@@ -154,4 +154,8 @@ void radixSort(int *arr, int n, int numDigits);
 /**
  * @brief calculates time elapsed
  */
-string printPerformanceOut(int * arr, int size,
+string printPerformanceOut(int * arr, int size, string algoType);
+/**
+ * @brief Obtain result for randomly generated arrays
+ */
+void getResult(i
