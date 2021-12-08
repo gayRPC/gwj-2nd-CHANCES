@@ -150,4 +150,8 @@ int getMaxItemDigit(int *arr, int n);
  */
 void radixSort(int *arr, int n, int numDigits);
 
-// Performance
+// Performance Analysis helpers
+/**
+ * @brief calculates time elapsed
+ */
+string printPerformanceOut(int * arr, int size,
