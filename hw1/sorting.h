@@ -167,4 +167,7 @@ void getResult(int size, string *resArr);
 void printHeader(string algoType);
 
 /**
- * @brief create random 
+ * @brief create random arrays
+ */
+void createArrays(int *arr1, int *arr2, int *arr3, int *arr4, int size);
+#endif
