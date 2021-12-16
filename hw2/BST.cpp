@@ -18,4 +18,9 @@ BST::BST(){
 
 // destructor
 BST::~BST(){
-    d
+    deleteTree(root);
+}
+
+// Insertion
+void BST::insertItem(int key){
+    // first find the positi
