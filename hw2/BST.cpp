@@ -10,4 +10,12 @@
 
 #include "BST.h"
 #include <iostream>
-u
+using namespace std;
+// default constructor
+BST::BST(){
+    root = NULL;
+}
+
+// destructor
+BST::~BST(){
+    d
