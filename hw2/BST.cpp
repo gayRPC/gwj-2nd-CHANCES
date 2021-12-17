@@ -23,4 +23,9 @@ BST::~BST(){
 
 // Insertion
 void BST::insertItem(int key){
-    // first find the positi
+    // first find the position to insert
+    insertItem(key, root);
+}
+
+// Deletion
+void BST::deleteI
