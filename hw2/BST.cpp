@@ -28,4 +28,7 @@ void BST::insertItem(int key){
 }
 
 // Deletion
-void BST::deleteI
+void BST::deleteItem(int key){
+    // First search for the node to delete
+    // Case 1) Node has no children
+    // Case
