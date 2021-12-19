@@ -33,4 +33,9 @@ void BST::deleteItem(int key){
     // Case 1) Node has no children
     // Case 2) Node has only 1 child
     // Case 3) Node has 2 childeren
-    searchToDelete(ke
+    searchToDelete(key, root);
+};
+
+// Fetch
+BSTNode* BST::retrieveItem(int key){
+    return retrieveItem(key, root
