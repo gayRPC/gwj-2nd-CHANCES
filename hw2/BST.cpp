@@ -31,4 +31,6 @@ void BST::insertItem(int key){
 void BST::deleteItem(int key){
     // First search for the node to delete
     // Case 1) Node has no children
-    // Case
+    // Case 2) Node has only 1 child
+    // Case 3) Node has 2 childeren
+    searchToDelete(ke
