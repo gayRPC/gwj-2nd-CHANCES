@@ -38,4 +38,9 @@ void BST::deleteItem(int key){
 
 // Fetch
 BSTNode* BST::retrieveItem(int key){
-    return retrieveItem(key, root
+    return retrieveItem(key, root);
+};
+
+// Inorder traversal
+int* BST::inorderTraversal(int& length){
+    length = 0; // safe
