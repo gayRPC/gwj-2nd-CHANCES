@@ -43,4 +43,9 @@ BSTNode* BST::retrieveItem(int key){
 
 // Inorder traversal
 int* BST::inorderTraversal(int& length){
-    length = 0; // safe
+    length = 0; // safety
+    countNodes(length, root);
+    if (!length) {
+        return NULL; // tree empty
+    } else {
+ 
