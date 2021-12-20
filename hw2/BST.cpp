@@ -48,4 +48,5 @@ int* BST::inorderTraversal(int& length){
     if (!length) {
         return NULL; // tree empty
     } else {
- 
+        // create an dynamically allocated array
+        int *treeArray = new in
