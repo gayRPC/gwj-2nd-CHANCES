@@ -51,4 +51,10 @@ int* BST::inorderTraversal(int& length){
         // create an dynamically allocated array
         int *treeArray = new int[length];
         int idx = 0; // increment index within the function
-        writeInArray(treeArray, idx
+        writeInArray(treeArray, idx, root);
+        return treeArray;
+    }
+};
+
+
+// check whether given array is a subequence within
