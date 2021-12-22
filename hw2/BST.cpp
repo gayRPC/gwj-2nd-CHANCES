@@ -49,4 +49,6 @@ int* BST::inorderTraversal(int& length){
         return NULL; // tree empty
     } else {
         // create an dynamically allocated array
-        int *treeArray = new in
+        int *treeArray = new int[length];
+        int idx = 0; // increment index within the function
+        writeInArray(treeArray, idx
