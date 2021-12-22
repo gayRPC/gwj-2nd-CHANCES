@@ -57,4 +57,7 @@ int* BST::inorderTraversal(int& length){
 };
 
 
-// check whether given array is a subequence within
+// check whether given array is a subequence within the tree
+bool BST::containsSequence(int* seq, int length){
+    int idx = 0;
+    bool 
