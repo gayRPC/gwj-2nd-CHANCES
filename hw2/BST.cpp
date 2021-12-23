@@ -68,4 +68,8 @@ bool BST::containsSequence(int* seq, int length){
 // Returns number of nodes whose level is greater than the level threshold
 int BST::countNodesDeeperThan(int level){
     int numNodes = 0;
-    countNodesDeeperThan(level, numNode
+    countNodesDeeperThan(level, numNodes, root);
+    return numNodes;
+}
+
+// returns maximum height if the tree could have heig
