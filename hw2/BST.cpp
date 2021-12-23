@@ -66,4 +66,6 @@ bool BST::containsSequence(int* seq, int length){
 }
 
 // Returns number of nodes whose level is greater than the level threshold
-int BST::countNod
+int BST::countNodesDeeperThan(int level){
+    int numNodes = 0;
+    countNodesDeeperThan(level, numNode
