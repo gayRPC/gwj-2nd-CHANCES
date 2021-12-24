@@ -72,4 +72,7 @@ int BST::countNodesDeeperThan(int level){
     return numNodes;
 }
 
-// returns maximum height if the tree could have heig
+// returns maximum height if the tree could have height balanced.
+int BST::maxBalancedHeight(){
+    int curBalanced = 0;
+    checkBalancedHeight(root, curBalance
