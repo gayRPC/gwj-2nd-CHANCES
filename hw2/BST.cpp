@@ -77,4 +77,9 @@ int BST::maxBalancedHeight(){
     int curBalanced = 0;
     checkBalancedHeight(root, curBalanced);
     // root has only one child or have no child
-    if ((root->rightChildPt
+    if ((root->rightChildPtr == NULL) || (root->leftChildPtr == NULL)){
+        return ++curBalanced;
+    }
+    return curBalanced;
+}
+
