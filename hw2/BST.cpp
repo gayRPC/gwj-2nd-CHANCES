@@ -75,4 +75,6 @@ int BST::countNodesDeeperThan(int level){
 // returns maximum height if the tree could have height balanced.
 int BST::maxBalancedHeight(){
     int curBalanced = 0;
-    checkBalancedHeight(root, curBalance
+    checkBalancedHeight(root, curBalanced);
+    // root has only one child or have no child
+    if ((root->rightChildPt
