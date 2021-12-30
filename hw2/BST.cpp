@@ -83,3 +83,9 @@ int BST::maxBalancedHeight(){
     return curBalanced;
 }
 
+
+
+// ======= Private Methods of the BST Class (Helpers) ===========
+
+// insertion
+void
