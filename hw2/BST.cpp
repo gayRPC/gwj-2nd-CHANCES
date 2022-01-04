@@ -92,4 +92,6 @@ void BST::insertItem(const int &keyItem, BSTNode *&rootNode){
     if (!rootNode) {
         rootNode = new BSTNode(keyItem, NULL, NULL); // dynamic allocated node
     } else {
-        // det
+        // determine which brach to go
+        if (keyItem < rootNode->item) {
+            // look lef
