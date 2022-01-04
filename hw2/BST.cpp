@@ -88,4 +88,6 @@ int BST::maxBalancedHeight(){
 // ======= Private Methods of the BST Class (Helpers) ===========
 
 // insertion
-void
+void BST::insertItem(const int &keyItem, BSTNode *&rootNode){
+    if (!rootNode) {
+        rootNode = new B
