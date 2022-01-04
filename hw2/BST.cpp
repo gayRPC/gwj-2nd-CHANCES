@@ -90,4 +90,6 @@ int BST::maxBalancedHeight(){
 // insertion
 void BST::insertItem(const int &keyItem, BSTNode *&rootNode){
     if (!rootNode) {
-        rootNode = new B
+        rootNode = new BSTNode(keyItem, NULL, NULL); // dynamic allocated node
+    } else {
+        // det
