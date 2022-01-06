@@ -94,4 +94,7 @@ void BST::insertItem(const int &keyItem, BSTNode *&rootNode){
     } else {
         // determine which brach to go
         if (keyItem < rootNode->item) {
-            // look lef
+            // look left
+            insertItem(keyItem, rootNode->leftChildPtr);
+        } else {
+            /
