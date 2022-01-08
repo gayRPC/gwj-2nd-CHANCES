@@ -106,4 +106,10 @@ void BST::insertItem(const int &keyItem, BSTNode *&rootNode){
 // empty check
 bool BST::isEmpty(){
     if (root) {
-        return false
+        return false;
+    }
+    return true;
+}
+
+// desrtuctor helper
+void BST::deleteTree(BSTNode *&rootNode
