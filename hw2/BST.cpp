@@ -100,3 +100,10 @@ void BST::insertItem(const int &keyItem, BSTNode *&rootNode){
             // look right
             insertItem(keyItem, rootNode->rightChildPtr);
         }
+    }
+}
+
+// empty check
+bool BST::isEmpty(){
+    if (root) {
+        return false
