@@ -97,4 +97,6 @@ void BST::insertItem(const int &keyItem, BSTNode *&rootNode){
             // look left
             insertItem(keyItem, rootNode->leftChildPtr);
         } else {
-            /
+            // look right
+            insertItem(keyItem, rootNode->rightChildPtr);
+        }
