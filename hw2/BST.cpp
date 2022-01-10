@@ -112,4 +112,6 @@ bool BST::isEmpty(){
 }
 
 // desrtuctor helper
-void BST::deleteTree(BSTNode *&rootNode
+void BST::deleteTree(BSTNode *&rootNode){
+    if (rootNode) { // root is not empty
+        deleteTree(rootNode->leftChi
