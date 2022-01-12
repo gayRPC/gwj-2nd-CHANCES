@@ -115,4 +115,6 @@ bool BST::isEmpty(){
 void BST::deleteTree(BSTNode *&rootNode){
     if (rootNode) { // root is not empty
         deleteTree(rootNode->leftChildPtr); // deallocate left subtree
-        deleteTree(rootNode->rightChildPtr); // deallocate ri
+        deleteTree(rootNode->rightChildPtr); // deallocate right subtree
+        delete rootNode; // deallocate current node
+        rootN
