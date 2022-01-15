@@ -122,4 +122,5 @@ void BST::deleteTree(BSTNode *&rootNode){
 }
 
 // retrieve the item which contains the key value
-BSTNode* BST::retrieveIte
+BSTNode* BST::retrieveItem(const int &keyItem, BSTNode *&rootNode){
+    // node is empty we searched and not fo
