@@ -117,4 +117,9 @@ void BST::deleteTree(BSTNode *&rootNode){
         deleteTree(rootNode->leftChildPtr); // deallocate left subtree
         deleteTree(rootNode->rightChildPtr); // deallocate right subtree
         delete rootNode; // deallocate current node
-        rootN
+        rootNode = NULL; // consistency
+    }
+}
+
+// retrieve the item which contains the key value
+BSTNode* BST::retrieveIte
