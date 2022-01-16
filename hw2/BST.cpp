@@ -127,4 +127,6 @@ BSTNode* BST::retrieveItem(const int &keyItem, BSTNode *&rootNode){
     if (!rootNode) {
         // return NULL to indicate not found
         return NULL;
-    } el
+    } else {
+        if (keyItem == rootNode->item) {
+            return rootNode; 
