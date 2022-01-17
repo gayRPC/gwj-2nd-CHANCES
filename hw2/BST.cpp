@@ -133,4 +133,7 @@ BSTNode* BST::retrieveItem(const int &keyItem, BSTNode *&rootNode){
         }
         else if (keyItem < rootNode->item) {
             // look left
-          
+            retrieveItem(keyItem, rootNode->leftChildPtr);
+        }
+        else {
+         
