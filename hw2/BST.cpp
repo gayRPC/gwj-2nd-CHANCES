@@ -129,4 +129,8 @@ BSTNode* BST::retrieveItem(const int &keyItem, BSTNode *&rootNode){
         return NULL;
     } else {
         if (keyItem == rootNode->item) {
-            return rootNode; 
+            return rootNode; // node found
+        }
+        else if (keyItem < rootNode->item) {
+            // look left
+          
