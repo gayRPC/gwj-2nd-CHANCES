@@ -136,4 +136,5 @@ BSTNode* BST::retrieveItem(const int &keyItem, BSTNode *&rootNode){
             retrieveItem(keyItem, rootNode->leftChildPtr);
         }
         else {
-         
+            // look right
+            retrieveItem(keyItem, rootNode->rightChild
