@@ -137,4 +137,10 @@ BSTNode* BST::retrieveItem(const int &keyItem, BSTNode *&rootNode){
         }
         else {
             // look right
-            retrieveItem(keyItem, rootNode->rightChild
+            retrieveItem(keyItem, rootNode->rightChildPtr);
+        }
+    }
+    return NULL; // never falls to this case
+}
+
+// ===
