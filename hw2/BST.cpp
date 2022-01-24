@@ -149,4 +149,7 @@ BSTNode* BST::retrieveItem(const int &keyItem, BSTNode *&rootNode){
 void BST::deleteNode(BSTNode *&node){
     // Case 1) node does not have a child
     if ((node->leftChildPtr == NULL) && (node->rightChildPtr == NULL)) {
-        delet
+        delete node;
+        node = NULL;
+    } else if(node->leftChildPtr == NULL){
+        // Case 2) 
