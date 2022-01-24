@@ -143,4 +143,6 @@ BSTNode* BST::retrieveItem(const int &keyItem, BSTNode *&rootNode){
     return NULL; // never falls to this case
 }
 
-// ===
+// ======== deleteNode helpers ==========
+
+// when found node delete the node
