@@ -156,4 +156,6 @@ void BST::deleteNode(BSTNode *&node){
         // copy the value to current node
         node->item = node->rightChildPtr->item;
         // deallocate the left child
-        delete 
+        delete node->rightChildPtr;
+        node->rightChildPtr = NULL;
+    } else if(node->rightChild
