@@ -158,4 +158,6 @@ void BST::deleteNode(BSTNode *&node){
         // deallocate the left child
         delete node->rightChildPtr;
         node->rightChildPtr = NULL;
-    } else if(node->rightChild
+    } else if(node->rightChildPtr == NULL){
+        // Case 2) node has only the left child
+        // copy t
