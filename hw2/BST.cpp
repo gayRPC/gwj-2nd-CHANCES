@@ -165,4 +165,7 @@ void BST::deleteNode(BSTNode *&node){
         // deallocate the left child
         delete node->leftChildPtr;
         node->leftChildPtr = NULL;
-  
+    }  else {
+    // Case 3) node has 2 children
+        // helper function to deal with 2 children case
+        /
