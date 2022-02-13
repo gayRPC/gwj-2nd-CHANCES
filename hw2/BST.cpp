@@ -162,4 +162,7 @@ void BST::deleteNode(BSTNode *&node){
         // Case 2) node has only the left child
         // copy the value to current node
         node->item = node->leftChildPtr->item;
-        // deallocat
+        // deallocate the left child
+        delete node->leftChildPtr;
+        node->leftChildPtr = NULL;
+  
