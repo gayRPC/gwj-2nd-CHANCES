@@ -168,4 +168,6 @@ void BST::deleteNode(BSTNode *&node){
     }  else {
     // Case 3) node has 2 children
         // helper function to deal with 2 children case
-        /
+        // Find the in order succsessor
+        int keyItem = -1;
+        processLeftMost(keyItem, node->rightCh
