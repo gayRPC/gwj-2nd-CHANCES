@@ -176,4 +176,7 @@ void BST::deleteNode(BSTNode *&node){
 }
 
 // Handle deletion case3 node have 2 children
-void BST::processLeftMost(int &keyItem, BSTNode *&node
+void BST::processLeftMost(int &keyItem, BSTNode *&node){
+    if(!(node->leftChildPtr)){
+        // found the in order successor
+        keyItem =  node->ite
