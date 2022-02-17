@@ -179,4 +179,8 @@ void BST::deleteNode(BSTNode *&node){
 void BST::processLeftMost(int &keyItem, BSTNode *&node){
     if(!(node->leftChildPtr)){
         // found the in order successor
-        keyItem =  node->ite
+        keyItem =  node->item;
+        // delete the node
+        delete node;
+        node = NULL; // safe-check
+    } else 
