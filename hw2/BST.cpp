@@ -175,4 +175,5 @@ void BST::deleteNode(BSTNode *&node){
     }
 }
 
-// Handle
+// Handle deletion case3 node have 2 children
+void BST::processLeftMost(int &keyItem, BSTNode *&node
