@@ -183,4 +183,10 @@ void BST::processLeftMost(int &keyItem, BSTNode *&node){
         // delete the node
         delete node;
         node = NULL; // safe-check
-    } else 
+    } else {
+        // recurse left
+        processLeftMost(keyItem, node->leftChildPtr);
+    }
+}
+
+// search for the node 
