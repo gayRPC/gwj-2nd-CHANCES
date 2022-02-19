@@ -192,4 +192,7 @@ void BST::processLeftMost(int &keyItem, BSTNode *&node){
 // search for the node to delete
 void BST::searchToDelete(int &keyItem, BSTNode *&node){
     if (!node) {
-  
+        // item not found
+        return;
+    } else {
+        if (node->item == keyItem)
