@@ -200,4 +200,7 @@ void BST::searchToDelete(int &keyItem, BSTNode *&node){
             deleteNode(node);
         } else if (keyItem < node->item){
             // search left
-            searchToDelete(keyItem,
+            searchToDelete(keyItem, node->leftChildPtr);
+        } else {
+            // search right
+            searchToDe
