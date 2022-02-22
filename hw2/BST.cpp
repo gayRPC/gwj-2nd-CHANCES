@@ -195,4 +195,7 @@ void BST::searchToDelete(int &keyItem, BSTNode *&node){
         // item not found
         return;
     } else {
-        if (node->item == keyItem)
+        if (node->item == keyItem) {
+            // delete node
+            deleteNode(node);
+        } e
