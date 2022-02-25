@@ -203,4 +203,9 @@ void BST::searchToDelete(int &keyItem, BSTNode *&node){
             searchToDelete(keyItem, node->leftChildPtr);
         } else {
             // search right
-            searchToDe
+            searchToDelete(keyItem, node->rightChildPtr);
+        }
+    }
+}
+
+// ================= inorder trav
