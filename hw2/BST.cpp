@@ -210,4 +210,9 @@ void BST::searchToDelete(int &keyItem, BSTNode *&node){
 
 // ================= inorder traversal helpers ====================
 // count nodes of the tree
-void BST::countNodes(int& length, BS
+void BST::countNodes(int& length, BSTNode *&node){
+    if (node == NULL) {
+        return;
+    }
+    // go left subtree
+    countN
