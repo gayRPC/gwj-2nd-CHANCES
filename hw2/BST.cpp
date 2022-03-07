@@ -215,4 +215,7 @@ void BST::countNodes(int& length, BSTNode *&node){
         return;
     }
     // go left subtree
-    countN
+    countNodes(length, node->leftChildPtr);
+    // current node
+    length++;
+    // go right subtr
