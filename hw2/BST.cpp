@@ -225,4 +225,7 @@ void BST::countNodes(int& length, BSTNode *&node){
 // write the values to the array
 void BST::writeInArray(int *treeArray, int &idx, BSTNode *&node){
     if (node == NULL) {
-        ret
+        return;
+    }
+    // go left subtree
+    writeInArray(treeArray, idx, node->leftChildP
