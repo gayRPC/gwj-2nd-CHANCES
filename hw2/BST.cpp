@@ -232,4 +232,7 @@ void BST::writeInArray(int *treeArray, int &idx, BSTNode *&node){
     // process node
     treeArray[idx++] = node->item;
     // go right subtree
-    writeInAr
+    writeInArray(treeArray, idx, node->rightChildPtr);
+}
+
+// ============= containsSequence helpers 
