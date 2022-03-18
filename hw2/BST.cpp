@@ -228,4 +228,8 @@ void BST::writeInArray(int *treeArray, int &idx, BSTNode *&node){
         return;
     }
     // go left subtree
-    writeInArray(treeArray, idx, node->leftChildP
+    writeInArray(treeArray, idx, node->leftChildPtr);
+    // process node
+    treeArray[idx++] = node->item;
+    // go right subtree
+    writeInAr
