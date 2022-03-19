@@ -235,4 +235,5 @@ void BST::writeInArray(int *treeArray, int &idx, BSTNode *&node){
     writeInArray(treeArray, idx, node->rightChildPtr);
 }
 
-// ============= containsSequence helpers 
+// ============= containsSequence helpers =============
+void BST::BSTcontainsSequence(int* seq, const int length, int &idx, BSTN
