@@ -236,4 +236,7 @@ void BST::writeInArray(int *treeArray, int &idx, BSTNode *&node){
 }
 
 // ============= containsSequence helpers =============
-void BST::BSTcontainsSequence(int* seq, const int length, int &idx, BSTN
+void BST::BSTcontainsSequence(int* seq, const int length, int &idx, BSTNode *&node, bool &flag){
+    // perform in order traversal
+    // check match between current node
+    /
