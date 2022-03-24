@@ -239,4 +239,5 @@ void BST::writeInArray(int *treeArray, int &idx, BSTNode *&node){
 void BST::BSTcontainsSequence(int* seq, const int length, int &idx, BSTNode *&node, bool &flag){
     // perform in order traversal
     // check match between current node
-    /
+    // increment sequence index if there is match
+    // keep checking un
