@@ -240,4 +240,11 @@ void BST::BSTcontainsSequence(int* seq, const int length, int &idx, BSTNode *&no
     // perform in order traversal
     // check match between current node
     // increment sequence index if there is match
-    // keep checking un
+    // keep checking untill matching fails
+    if (flag) {
+        return;
+    }
+    if (!node) {
+        return;
+    }
+ 
