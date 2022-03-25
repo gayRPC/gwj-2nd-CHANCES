@@ -247,4 +247,6 @@ void BST::BSTcontainsSequence(int* seq, const int length, int &idx, BSTNode *&no
     if (!node) {
         return;
     }
- 
+    else {
+        // search left
+        BSTcontainsSequence(seq, length, idx, node->leftChildPtr, flag
