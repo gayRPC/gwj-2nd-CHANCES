@@ -252,4 +252,7 @@ void BST::BSTcontainsSequence(int* seq, const int length, int &idx, BSTNode *&no
         BSTcontainsSequence(seq, length, idx, node->leftChildPtr, flag);
         // process current node
         cout << "Visit Node: " << node->item << endl;
- 
+        if (node->item == seq[idx]) {
+            // increment index
+            idx++;
+        }
