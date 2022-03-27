@@ -255,4 +255,8 @@ void BST::BSTcontainsSequence(int* seq, const int length, int &idx, BSTNode *&no
         if (node->item == seq[idx]) {
             // increment index
             idx++;
+        } else {
+            // fails to contain item
+            idx = 0;
         }
+        if (idx == le
