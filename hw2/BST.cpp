@@ -259,4 +259,8 @@ void BST::BSTcontainsSequence(int* seq, const int length, int &idx, BSTNode *&no
             // fails to contain item
             idx = 0;
         }
-        if (idx == le
+        if (idx == length) {
+            flag =  true; // all sequence traversed
+            return;
+        }
+      
