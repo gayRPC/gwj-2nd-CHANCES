@@ -264,4 +264,6 @@ void BST::BSTcontainsSequence(int* seq, const int length, int &idx, BSTNode *&no
             return;
         }
         if(node->item > seq[idx] && !flag){
-            // current node element greater than th
+            // current node element greater than the index and sequence does not marked contained 
+            flag = false;
+            r
