@@ -269,4 +269,8 @@ void BST::BSTcontainsSequence(int* seq, const int length, int &idx, BSTNode *&no
             return;
         }
         // search right
-        BSTcontainsSequence(seq, l
+        BSTcontainsSequence(seq, length, idx, node->rightChildPtr, flag);
+    }
+}
+
+// ============= countNodesDe
