@@ -275,4 +275,8 @@ void BST::BSTcontainsSequence(int* seq, const int length, int &idx, BSTNode *&no
 
 // ============= countNodesDeeperThan helpers =============
 
-void BST::countNodesDeeperThan(int level, int &numNodes, BSTNode 
+void BST::countNodesDeeperThan(int level, int &numNodes, BSTNode *&node){
+    if (node == NULL) {
+        return;
+    } else {
+        // search
