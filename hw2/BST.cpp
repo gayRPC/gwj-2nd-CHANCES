@@ -279,4 +279,6 @@ void BST::countNodesDeeperThan(int level, int &numNodes, BSTNode *&node){
     if (node == NULL) {
         return;
     } else {
-        // search
+        // search through left
+        countNodesDeeperThan(level, numNodes, node->leftChildPtr);
+        // pro
