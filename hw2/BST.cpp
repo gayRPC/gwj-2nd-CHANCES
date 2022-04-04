@@ -283,4 +283,6 @@ void BST::countNodesDeeperThan(int level, int &numNodes, BSTNode *&node){
         countNodesDeeperThan(level, numNodes, node->leftChildPtr);
         // process current node determine current node's level
         int nodeLevel = 1;
-        
+        getLevel(root, node->item, nodeLevel);
+        if (nodeLevel >= level) {
+            
