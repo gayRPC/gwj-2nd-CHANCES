@@ -286,4 +286,7 @@ void BST::countNodesDeeperThan(int level, int &numNodes, BSTNode *&node){
         getLevel(root, node->item, nodeLevel);
         if (nodeLevel >= level) {
             //cout << "node value: " << node->item << endl;
-            //cout << "node level: " << 
+            //cout << "node level: " << nodeLevel << endl;
+            numNodes++;
+        }
+        // search through r
