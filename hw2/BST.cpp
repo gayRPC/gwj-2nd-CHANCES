@@ -289,4 +289,5 @@ void BST::countNodesDeeperThan(int level, int &numNodes, BSTNode *&node){
             //cout << "node level: " << nodeLevel << endl;
             numNodes++;
         }
-        // search through r
+        // search through right
+        countNodesDeeperThan(level, numNodes, node->rightC
