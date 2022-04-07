@@ -290,4 +290,9 @@ void BST::countNodesDeeperThan(int level, int &numNodes, BSTNode *&node){
             numNodes++;
         }
         // search through right
-        countNodesDeeperThan(level, numNodes, node->rightC
+        countNodesDeeperThan(level, numNodes, node->rightChildPtr);
+    }
+}
+
+void BST::getLevel(BSTNode *&node, int targetKey, int &nodeLevel){
+ 
