@@ -299,4 +299,8 @@ void BST::getLevel(BSTNode *&node, int targetKey, int &nodeLevel){
         // node is NULL
         return;
     }
-    els
+    else {
+        if (targetKey == node->item) {
+            return;
+        }
+        else if (targe
