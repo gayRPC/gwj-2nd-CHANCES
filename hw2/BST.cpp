@@ -303,4 +303,6 @@ void BST::getLevel(BSTNode *&node, int targetKey, int &nodeLevel){
         if (targetKey == node->item) {
             return;
         }
-        else if (targe
+        else if (targetKey < node->item) {
+            nodeLevel++;
+            getLevel(node->leftChildPtr, targe
