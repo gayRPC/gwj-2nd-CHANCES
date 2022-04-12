@@ -313,4 +313,8 @@ void BST::getLevel(BSTNode *&node, int targetKey, int &nodeLevel){
     }
 };
 
-// ========== maxBalancedHeight helpers ====
+// ========== maxBalancedHeight helpers ===========
+
+// returns height of the tree
+int BST::getHeight(BSTNode *&node){
+    if (node == NULL) 
