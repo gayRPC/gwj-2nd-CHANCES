@@ -308,4 +308,9 @@ void BST::getLevel(BSTNode *&node, int targetKey, int &nodeLevel){
             getLevel(node->leftChildPtr, targetKey, nodeLevel);
         } else {
             nodeLevel++;
-            getLevel(node->r
+            getLevel(node->rightChildPtr, targetKey, nodeLevel);
+        }
+    }
+};
+
+// ========== maxBalancedHeight helpers ====
