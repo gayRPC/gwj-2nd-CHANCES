@@ -321,4 +321,9 @@ int BST::getHeight(BSTNode *&node){
         return 0;
     }
     else {
-        return 1 + max(getHeight(node->leftChild
+        return 1 + max(getHeight(node->leftChildPtr), getHeight(node->rightChildPtr));
+    }
+}
+
+// checls the balanced height so far
+void BST::checkBal
