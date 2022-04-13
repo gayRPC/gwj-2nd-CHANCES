@@ -317,4 +317,8 @@ void BST::getLevel(BSTNode *&node, int targetKey, int &nodeLevel){
 
 // returns height of the tree
 int BST::getHeight(BSTNode *&node){
-    if (node == NULL) 
+    if (node == NULL) {
+        return 0;
+    }
+    else {
+        return 1 + max(getHeight(node->leftChild
