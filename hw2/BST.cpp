@@ -327,4 +327,6 @@ int BST::getHeight(BSTNode *&node){
 
 // checls the balanced height so far
 void BST::checkBalancedHeight(BSTNode *&node, int &maxBalanced){
-    // if node' left subtree and right subtr
+    // if node' left subtree and right subtree height differs no more than 1 than the tree is balanced
+    if (node == NULL) {
+        ret
