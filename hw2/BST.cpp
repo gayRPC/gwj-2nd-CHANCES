@@ -332,4 +332,7 @@ void BST::checkBalancedHeight(BSTNode *&node, int &maxBalanced){
         return;
     }
     // obtain the subree heights
-    int leftSubtree = getHeight(node->leftChild
+    int leftSubtree = getHeight(node->leftChildPtr);
+    int rightSubtree = getHeight(node->rightChildPtr);
+    int curBalanced;
+  
