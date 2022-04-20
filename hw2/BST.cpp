@@ -338,4 +338,7 @@ void BST::checkBalancedHeight(BSTNode *&node, int &maxBalanced){
     // get the minimum of the height where tree is balanced
     if (abs(leftSubtree - rightSubtree) >= 1) {
         // get minimum to obtain height balanced
-        curBalanced  =
+        curBalanced  =  1 + min(leftSubtree, rightSubtree);
+    }
+    else {
+        // tree is balanced differ only
