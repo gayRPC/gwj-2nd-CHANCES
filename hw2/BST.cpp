@@ -344,4 +344,7 @@ void BST::checkBalancedHeight(BSTNode *&node, int &maxBalanced){
         // tree is balanced differ only less than or equal 1 level
         curBalanced = max(leftSubtree, rightSubtree);
     }
-    
+    maxBalanced = max(maxBalanced, curBalanced);
+}
+
+
