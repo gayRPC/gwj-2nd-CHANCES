@@ -126,3 +126,60 @@ private:
      * @brief Count number nodes in the array
      * @param length  height of the array
      * @param node root
+     */
+    void countNodes(int& length, BSTNode *&node);
+    
+    /**
+     * @brief Write data to the array of interest
+     * @param treeArray arrayToWrite
+     * @param idx current index
+     * @param node current node to write
+     */
+    void writeInArray(int *treeArray, int &idx, BSTNode *&node);
+    
+    // ======= contains sequence helper  ========
+    /**
+     * @brief Checks tree contains the given sequence
+     * @param seq arrayToWrite
+     * @param length size of the array
+     * @param idx current index
+     * @param node handle to the tree
+     * @param flag indicates whether sequence found or not
+     */
+    void BSTcontainsSequence(int* seq, const int length, int &idx, BSTNode *&node, bool &flag);
+    
+    // ======== count nodes deeper than helper
+    
+    /**
+     *  @brief Returns number of nodes whose level is greater than the level threshold
+     *  @param level threshold values
+     *  @param numNodes in/out param to count nodes whose level greater than the threshold
+     *  @param node handle to traverse the tree
+     */
+    void countNodesDeeperThan(int level, int &numNodes, BSTNode *&node);
+    
+    /**
+     *  @brief Determines level of the choosen node
+     *  @param node handle to traverse the tree
+     *  @param targetKey node to target starting from root
+     *  @param nodeLevel level of the current node
+     */
+    void getLevel(BSTNode *&node, int targetKey, int &nodeLevel);
+    
+    // ======== maxBalancedHeight Helpers
+    
+    /**
+     * @brief gets a node and determines height of the tree
+     * @return height
+     */
+    int getHeight(BSTNode *& node);
+    
+    /**
+     * @brief Check tree's balanced height
+     */
+    void checkBalancedHeight(BSTNode *&node, int &maxBalanced);
+    
+
+};
+
+#endif
