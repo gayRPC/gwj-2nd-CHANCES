@@ -13,3 +13,11 @@
 
 // Default constructor
 BSTNode::BSTNode(){};
+
+// Constructor
+BSTNode::BSTNode(const int &nodeItem, BSTNode *left, BSTNode *right){
+    item = nodeItem;
+    leftChildPtr = left;
+    rightChildPtr = right;
+    }
+
