@@ -3,4 +3,6 @@
  * Author: Zeynep Cankara
  * ID: 21703381
  * Section: 2
- * Assignment:
+ * Assignment: 2
+ * Description: header file of Binary Search Tree Node Class. Node data type: int
+ 
