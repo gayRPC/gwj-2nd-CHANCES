@@ -9,4 +9,11 @@
  */
 
 #ifndef BSTNode_h
-#def
+#define BSTNode_h
+
+#include <stdio.h>
+
+class BSTNode{
+private:
+    // instance variables
+    int item;
