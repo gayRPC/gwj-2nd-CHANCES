@@ -17,3 +17,7 @@ class BSTNode{
 private:
     // instance variables
     int item;
+    BSTNode *leftChildPtr;
+    BSTNode *rightChildPtr;
+    
+    // default constru
