@@ -24,4 +24,7 @@ private:
     BSTNode();
  
     /**
-     * @brief Constructor which initializes the node with given paramet
+     * @brief Constructor which initializes the node with given parameters
+     * @param nodeItem integer key
+     * @param left BSTNode pointer left child
+   
