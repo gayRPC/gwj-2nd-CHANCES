@@ -20,4 +20,8 @@ private:
     BSTNode *leftChildPtr;
     BSTNode *rightChildPtr;
     
-    // default constru
+    // default constructor
+    BSTNode();
+ 
+    /**
+     * @brief Constructor which initializes the node with given paramet
