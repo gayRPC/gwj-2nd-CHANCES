@@ -27,4 +27,6 @@ private:
      * @brief Constructor which initializes the node with given parameters
      * @param nodeItem integer key
      * @param left BSTNode pointer left child
-   
+     * @param right BSTNode pointer right child
+     */
+    BSTNode(const int &nodeItem, B
