@@ -29,4 +29,6 @@ private:
      * @param left BSTNode pointer left child
      * @param right BSTNode pointer right child
      */
-    BSTNode(const int &nodeItem, B
+    BSTNode(const int &nodeItem, BSTNode *left = NULL, BSTNode *right = NULL);
+    
+    // Binary Search Tree contai
