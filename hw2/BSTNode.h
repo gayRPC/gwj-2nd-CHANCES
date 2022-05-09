@@ -31,4 +31,5 @@ private:
      */
     BSTNode(const int &nodeItem, BSTNode *left = NULL, BSTNode *right = NULL);
     
-    // Binary Search Tree contai
+    // Binary Search Tree contains BSTNodes. It must be able to access private parts of the BSTNode.
+    friend class BST;
