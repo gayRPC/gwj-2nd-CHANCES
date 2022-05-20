@@ -10,4 +10,8 @@ first: main.o BST.o BSTNode.o
 main.o: main.cpp
 	$(CC) $(CFLAGS) main.cpp
 BST.o: BST.cpp
-	
+	$(CC) $(CFLAGS) BST.cpp
+BSTNode.o: BSTNode.cpp
+	$(CC) $(CFLAGS) BSTNode.cpp
+clean:
+	rm *o hw2
