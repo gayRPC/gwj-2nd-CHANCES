@@ -82,3 +82,69 @@ int main() {
     BST treeCpy;
     //test for inserting items into the tree
     treeCpy.insertItem(8);
+    treeCpy.insertItem(4);
+    treeCpy.insertItem(13);
+    treeCpy.insertItem(3);
+    treeCpy.insertItem(1);
+    treeCpy.insertItem(2);
+    treeCpy.insertItem(6);
+    treeCpy.insertItem(5);
+    treeCpy.insertItem(15);
+    treeCpy.insertItem(14);
+    treeCpy.insertItem(12);
+    treeCpy.insertItem(10);
+    
+    int arr[6] = {1, 2, 3, 4, 5, 6};
+    cout << "Check tree contains sequence [1, 2, 3, 4, 5, 6]" << endl;
+    // must not traverse subtree rooted at 13
+    cout << "Expected: true" << endl;
+    if( treeCpy.containsSequence(arr, 6)  ){
+        cout << "Tree *contains* the sequence..." << endl;
+    } else {
+        cout << "Tree *DOES NOT contains* the sequence..." << endl;
+    }
+    cout << "Check tree contains sequence [10, 12, 13, 15]" << endl;
+    cout << "Expected: false" << endl;
+    int arr1[4] = {10, 12, 13, 15};
+    if( treeCpy.containsSequence(arr1, 4)  ){
+        cout << "Tree *contains* the sequence..." << endl;
+    } else {
+        cout << "Tree *DOES NOT contains* the sequence..." << endl;
+    }
+    cout << "Check tree contains sequence [10, 11, 12]" << endl;
+    cout << "Expected: false" << endl;
+    int arr2[3] = {10, 11, 12};
+    if( treeCpy.containsSequence(arr2, 3)  ){
+        cout << "Tree *contains* the sequence..." << endl;
+    } else {
+        cout << "Tree *DOES NOT contains* the sequence..." << endl;
+    }
+    // Count Nodes Deeper than test...
+    cout << "=== countNodesDeeperThan method Test ===" << endl;
+    int level = 4;
+    int resultLevel = treeCpy.countNodesDeeperThan(level);
+    cout << "Number of nodes having levels deeper than " << level << ": " << resultLevel << endl;
+    level = 3;
+    resultLevel = treeCpy.countNodesDeeperThan(level);
+    cout << "Number of nodes having levels deeper than " << level << ": " << resultLevel << endl;
+    level = 2;
+    resultLevel = treeCpy.countNodesDeeperThan(level);
+    cout << "Number of nodes having levels deeper than " << level << ": " << resultLevel << endl;
+    level = 1;
+    resultLevel = treeCpy.countNodesDeeperThan(level);
+    cout << "Number of nodes having levels deeper than " << level << ": " << resultLevel << endl;
+    // maxHeight Balanced test
+    cout << "=== maxBalancedHeight Test ===" << endl;
+    int maxBalanced = tree4.maxBalancedHeight();
+    cout << "Only 2 node tree max height " << endl;
+    cout << "tree will have height of if it's a balanced tree:  " << maxBalanced << endl;
+    cout << "Only one node tree max height " << endl;
+    maxBalanced = tree5.maxBalancedHeight();
+    cout << "tree will have height of if it's a balanced tree:  " << maxBalanced << endl;
+    cout << "Tree at homework assignment max height " << endl;
+    maxBalanced = treeCpy.maxBalancedHeight();
+    cout << "tree will have height of if it's a balanced tree:  " << maxBalanced << endl;
+    
+    cout << "======== THE END ===== TESTS CS201 ==========" << endl;
+    return 0;
+}
