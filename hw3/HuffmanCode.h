@@ -4,4 +4,8 @@
  * ID: 21703381
  * Section : 2
  * Assignment : 3
- * Description : Header (.h
+ * Description : Header (.h) file for Huffman Coding Algorithm
+ *                 - Solution of Question 3)
+ */
+
+#ifnd
