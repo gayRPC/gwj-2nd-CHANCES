@@ -98,3 +98,51 @@ void HuffmanCode::getCodingPattern(){
  * @brief Helper function of getCodingPattern()
  *        - Performs inorder traversal on Huffman Tree to obtain coding pattern
  * @param node pointer to the min heap node
+ * @param patternDict array to store coding pattern of current character
+ * @param curIndex index which will be used to select current character
+ * @param characterDict array which stores characters in the tree
+ * @param curPattern current character's pattern
+ */
+void HuffmanCode::getCodingPattern(HuffmanHeap::MinHeapNode *&node, string *&patternDict, char *&characterDict, string curPattern, int &curIndex){
+    if (node == NULL) {
+        return; // end of traversal
+    }
+    // recurse to the left
+    getCodingPattern(node->left, patternDict, characterDict, curPattern + "0", curIndex);
+    // process the node
+    // write the pattern to the dictionaries if node is a leaf node
+    if (node->left == NULL && node->right == NULL) {
+        patternDict[curIndex] = curPattern;
+        characterDict[curIndex] = node->character;
+        curPattern = "";
+        curIndex += 1;
+    }
+    // recurse to the right
+    getCodingPattern(node->right, patternDict, characterDict, curPattern + "1", curIndex);
+}
+
+// ============== DEBUG FUNCTIONS ===========//
+/**
+ * @brief Debug the Huffman Tree by traversing the tree
+ */
+void HuffmanCode::traverseIt(){
+    if (root) {
+        traverseIt(root);
+    }
+}
+/**
+ * @brief Debug the Huffman Tree by traversing the tree
+ * @param rootNode root node of the HuffmanTree
+ */
+void HuffmanCode::traverseIt(HuffmanHeap::MinHeapNode *& rootNode){
+    if (!rootNode) {
+        return;
+    } else {
+        // left
+        traverseIt(rootNode->left);
+        // process the node
+        cout << "Current Node Freq: " << rootNode->freq << " Char: " << rootNode->character << endl;
+        // recurse to the right
+        traverseIt(rootNode->right);
+    }
+}
