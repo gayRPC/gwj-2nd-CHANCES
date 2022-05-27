@@ -8,4 +8,8 @@
  *                 - Solution of Question 3)
  */
 
-#ifnd
+#ifndef HuffmanCode_h
+#define HuffmanCode_h
+
+#include "HuffmanQueue.h"
+#include <fstre
