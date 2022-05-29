@@ -12,4 +12,5 @@
 #define HuffmanCode_h
 
 #include "HuffmanQueue.h"
-#include <fstre
+#include <fstream> // file read and write
+#include <string> // for keeping dictionaries for pattern
