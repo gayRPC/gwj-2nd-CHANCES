@@ -14,3 +14,7 @@
 #include "HuffmanQueue.h"
 #include <fstream> // file read and write
 #include <string> // for keeping dictionaries for pattern
+using namespace std;
+class HuffmanCode{
+public:
+    // Insert a node into queue
