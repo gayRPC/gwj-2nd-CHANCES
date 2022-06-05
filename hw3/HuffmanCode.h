@@ -17,4 +17,6 @@
 using namespace std;
 class HuffmanCode{
 public:
-    // Insert a node into queue
+    // Insert a node into queue of the huffman tree
+    void hcInsert(const int freq, const char character);
+    // size of t
