@@ -22,4 +22,6 @@ public:
     // size of the huffman queue
     int hcSize();
     // construct Huffman Tree
-    HuffmanHeap::MinHeapN
+    HuffmanHeap::MinHeapNode*& createHuffmanTree();
+    // traverse the huffman tree to obtain coding pattern
+    // writes the
