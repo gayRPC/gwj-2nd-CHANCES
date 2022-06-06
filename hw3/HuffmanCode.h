@@ -19,4 +19,7 @@ class HuffmanCode{
 public:
     // Insert a node into queue of the huffman tree
     void hcInsert(const int freq, const char character);
-    // size of t
+    // size of the huffman queue
+    int hcSize();
+    // construct Huffman Tree
+    HuffmanHeap::MinHeapN
