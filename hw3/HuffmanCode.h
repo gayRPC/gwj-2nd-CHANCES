@@ -26,4 +26,5 @@ public:
     // traverse the huffman tree to obtain coding pattern
     // writes the pattern in a output file
     void getCodingPattern();
-    // helper function to get coding patt
+    // helper function to get coding pattern
+    void getCodingPattern(HuffmanHeap::MinHeapNode *& node, string *&pattern
