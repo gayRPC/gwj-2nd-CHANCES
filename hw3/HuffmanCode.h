@@ -28,4 +28,6 @@ public:
     void getCodingPattern();
     // helper function to get coding pattern
     void getCodingPattern(HuffmanHeap::MinHeapNode *& node, string *&patternDict, char *&characterDict, string curPattern, int &curIndex);
-    // Debug function to traverse 
+    // Debug function to traverse tree
+    void traverseIt();
+    void traverseIt(HuffmanHeap::MinHeapNode *& rootNode)
