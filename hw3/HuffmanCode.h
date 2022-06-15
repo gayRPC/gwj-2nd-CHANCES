@@ -30,4 +30,8 @@ public:
     void getCodingPattern(HuffmanHeap::MinHeapNode *& node, string *&patternDict, char *&characterDict, string curPattern, int &curIndex);
     // Debug function to traverse tree
     void traverseIt();
-    void traverseIt(HuffmanHeap::MinHeapNode *& rootNode)
+    void traverseIt(HuffmanHeap::MinHeapNode *& rootNode);
+private:
+    // root of the Huffman Tree
+    HuffmanHeap::MinHeapNode *root;
+    // inner Huff
