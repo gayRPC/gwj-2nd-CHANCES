@@ -34,4 +34,6 @@ public:
 private:
     // root of the Huffman Tree
     HuffmanHeap::MinHeapNode *root;
-    // inner Huff
+    // inner HuffmanQueue for constructing HuffmanTree
+    HuffmanQueue queue;
+    // initial si
