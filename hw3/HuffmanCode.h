@@ -36,4 +36,8 @@ private:
     HuffmanHeap::MinHeapNode *root;
     // inner HuffmanQueue for constructing HuffmanTree
     HuffmanQueue queue;
-    // initial si
+    // initial size of the queue
+    int pqSize;
+};
+
+#endif
