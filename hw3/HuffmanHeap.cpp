@@ -135,3 +135,34 @@ void HuffmanHeap::heapRebuild(int root){
     int childPtr = (root * 2) + 1;
     if ( childPtr < sizeHeap) {
         // not a leaf situation check existance of right child
+        int rightChildPtr = childPtr + 1;     // index of a right child, if any
+        // If root has right child, find larger child
+        if ( (rightChildPtr < sizeHeap) && ((*items[rightChildPtr]).freq < (*items[childPtr]).freq) ){
+            childPtr = rightChildPtr;     // get the position of the smallest child
+        }
+        // check root value swap if larger
+        if ( (*items[root]).freq > (*items[childPtr]).freq) {
+            MinHeapNode *temp = items[root];
+            items[root] = items[childPtr];
+            items[childPtr] = temp;
+            
+            // obtain the heap property back for child pointer
+            heapRebuild(childPtr);
+        }
+    }
+}
+
+
+// deletes the root item from the heap
+void HuffmanHeap::heapDelete(MinHeapNode *&nodeToDel){
+    if (isEmpty()) {
+        cout << "ERROR: Heap empty!" << endl;
+    } else {
+        nodeToDel = items[0]; // get the node ptr
+        items[0] = items[--sizeHeap]; // just pointer swaps
+        heapRebuild(0);
+    }
+}
+
+
+
