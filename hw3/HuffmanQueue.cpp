@@ -21,4 +21,5 @@ bool HuffmanQueue::pqIsEmpty() const {
     }
 }
 
-// insert 
+// insert a new element within the queue
+void HuffmanQueue::pqInsert(int freq, char charact
