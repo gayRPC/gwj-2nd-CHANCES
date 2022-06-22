@@ -11,4 +11,8 @@
 #include "HuffmanQueue.h"
 
 /**
- * @brief Queue conteins any it
+ * @brief Queue conteins any item or not
+ */
+bool HuffmanQueue::pqIsEmpty() const {
+    if (huffmanHeap.isEmpty()) {
+  
