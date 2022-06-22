@@ -49,3 +49,31 @@ public:
     
     /**
      * @brief Returns a pointer to the min element in the heap
+     */
+    MinHeapNode* extractMin();
+    
+    /**
+     * @brief returns the number of elements in the heap
+     * TODO: Done
+     */
+    int size();
+    
+    /**
+     * @brief Check heap is empty or not
+     * @return flag indicating heap is empty or not
+     */
+    bool isEmpty() const;
+    /**
+     * @brief Deletes the root item which is also the min item from the heap
+     */
+    void heapDelete(MinHeapNode *&nodeToDel);
+    
+protected:
+    /**
+     * @brief Rearrange the heap in order to satisfy heap property again
+     */
+    void heapRebuild(int root);
+};
+
+
+#endif
