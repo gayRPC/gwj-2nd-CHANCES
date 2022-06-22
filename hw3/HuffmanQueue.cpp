@@ -15,4 +15,10 @@
  */
 bool HuffmanQueue::pqIsEmpty() const {
     if (huffmanHeap.isEmpty()) {
-  
+        return true;
+    } else {
+        return false;
+    }
+}
+
+// insert 
