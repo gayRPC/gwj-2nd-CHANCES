@@ -32,4 +32,8 @@ void HuffmanQueue::pqInsert(HuffmanHeap::MinHeapNode *&newItem){
 }
 
 // delete the topmost min element from queue
-HuffmanHeap::MinHeapNode*
+HuffmanHeap::MinHeapNode* HuffmanQueue::pqDelete(){
+    return huffmanHeap.extractMin();
+}
+
+int HuffmanQueue::size(
