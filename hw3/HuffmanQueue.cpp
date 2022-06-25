@@ -22,4 +22,8 @@ bool HuffmanQueue::pqIsEmpty() const {
 }
 
 // insert a new element within the queue
-void HuffmanQueue::pqInsert(int freq, char charact
+void HuffmanQueue::pqInsert(int freq, char character){
+    huffmanHeap.insert(freq, character);
+}
+
+// insertion algorithm which takes node poi
