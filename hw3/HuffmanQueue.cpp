@@ -28,4 +28,8 @@ void HuffmanQueue::pqInsert(int freq, char character){
 
 // insertion algorithm which takes node pointer
 void HuffmanQueue::pqInsert(HuffmanHeap::MinHeapNode *&newItem){
-    huffmanHeap.insert(n
+    huffmanHeap.insert(newItem);
+}
+
+// delete the topmost min element from queue
+HuffmanHeap::MinHeapNode*
