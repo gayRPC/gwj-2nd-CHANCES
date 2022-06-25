@@ -26,4 +26,6 @@ void HuffmanQueue::pqInsert(int freq, char character){
     huffmanHeap.insert(freq, character);
 }
 
-// insertion algorithm which takes node poi
+// insertion algorithm which takes node pointer
+void HuffmanQueue::pqInsert(HuffmanHeap::MinHeapNode *&newItem){
+    huffmanHeap.insert(n
