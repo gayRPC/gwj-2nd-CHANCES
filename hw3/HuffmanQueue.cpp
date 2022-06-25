@@ -36,4 +36,7 @@ HuffmanHeap::MinHeapNode* HuffmanQueue::pqDelete(){
     return huffmanHeap.extractMin();
 }
 
-int HuffmanQueue::size(
+int HuffmanQueue::size(){
+    return huffmanHeap.size();
+}
+
