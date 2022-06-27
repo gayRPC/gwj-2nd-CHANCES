@@ -5,4 +5,11 @@
  * Section : 2
  * Assignment : 3
  * Description : Header (.h) file for priority queue algorithms which modified for Huffman Coding
- *                 - Solution of Q
+ *                 - Solution of Question 3)
+ */
+
+
+#ifndef HuffmanQueue_h
+#define HuffmanQueue_h
+#include "HuffmanHeap.h"
+
