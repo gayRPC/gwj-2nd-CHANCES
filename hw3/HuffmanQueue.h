@@ -31,4 +31,9 @@ public:
     // deletes the element with highest priority
     HuffmanHeap::MinHeapNode* pqDelete();
     
-  
+    // size function
+    int size();
+};
+
+#endif
+
