@@ -16,4 +16,7 @@
 class HuffmanQueue {
 private:
     // use HuffmanHeap for the queue implementation
-    Hu
+    HuffmanHeap huffmanHeap;
+    
+    // huffman code is a friend class
+    friend class Huffma
