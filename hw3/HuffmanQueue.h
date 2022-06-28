@@ -23,4 +23,6 @@ private:
 public:
     // check whether queue contains any elements
     bool pqIsEmpty() const;
- 
+    
+    // insert into the priority queue 2 signatures for insertion type
+    void pqInsert(int f
