@@ -13,3 +13,7 @@
 #define HuffmanQueue_h
 #include "HuffmanHeap.h"
 
+class HuffmanQueue {
+private:
+    // use HuffmanHeap for the queue implementation
+    Hu
