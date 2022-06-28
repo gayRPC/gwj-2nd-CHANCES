@@ -28,4 +28,7 @@ public:
     void pqInsert(int freq, char character);
     void pqInsert(HuffmanHeap::MinHeapNode *&newItem);
     
-   
+    // deletes the element with highest priority
+    HuffmanHeap::MinHeapNode* pqDelete();
+    
+  
