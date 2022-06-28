@@ -25,4 +25,7 @@ public:
     bool pqIsEmpty() const;
     
     // insert into the priority queue 2 signatures for insertion type
-    void pqInsert(int f
+    void pqInsert(int freq, char character);
+    void pqInsert(HuffmanHeap::MinHeapNode *&newItem);
+    
+   
