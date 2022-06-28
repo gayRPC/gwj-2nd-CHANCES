@@ -19,4 +19,8 @@ private:
     HuffmanHeap huffmanHeap;
     
     // huffman code is a friend class
-    friend class Huffma
+    friend class HuffmanCode;
+public:
+    // check whether queue contains any elements
+    bool pqIsEmpty() const;
+ 
