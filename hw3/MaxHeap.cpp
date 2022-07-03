@@ -8,4 +8,8 @@
  *             - Check header file (.h) for more detailed explenation of the code.
  */
 
-#include "Ma
+#include "MaxHeap.h"
+#include <iostream> // for cout <<
+using namespace std;
+// Constructor
+MaxHeap::MaxHe
