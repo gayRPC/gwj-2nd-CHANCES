@@ -19,4 +19,7 @@ MaxHeap::MaxHeap(){
 
 // Destructor
 MaxHeap::~MaxHeap(){
-    if
+    if (!isEmpty()) {
+        // deallocate the heap space
+        delete [] items;
+        sizeHeap = 0;
