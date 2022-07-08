@@ -12,4 +12,11 @@
 #include <iostream> // for cout <<
 using namespace std;
 // Constructor
-MaxHeap::MaxHe
+MaxHeap::MaxHeap(){
+    sizeHeap = 0;
+    items = new int[MAX_SIZE];
+}
+
+// Destructor
+MaxHeap::~MaxHeap(){
+    if
