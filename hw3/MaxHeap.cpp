@@ -23,3 +23,13 @@ MaxHeap::~MaxHeap(){
         // deallocate the heap space
         delete [] items;
         sizeHeap = 0;
+    }
+}
+
+// size
+int MaxHeap::size(){
+    return sizeHeap;
+}
+
+// isEmpty
+bool MaxHeap::isEmpty
