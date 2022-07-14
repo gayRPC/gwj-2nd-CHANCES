@@ -50,4 +50,6 @@ int MaxHeap::peek(){
     return -1;
 }
 
-// insert a
+// insert a new value into the heap
+void MaxHeap::insert(int value){
+    // 0) Check wheth
