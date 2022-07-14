@@ -52,4 +52,5 @@ int MaxHeap::peek(){
 
 // insert a new value into the heap
 void MaxHeap::insert(int value){
-    // 0) Check wheth
+    // 0) Check whether there is a space left for inserting the value
+    // 1) Appand the new value at the end
