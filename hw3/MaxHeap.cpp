@@ -32,4 +32,11 @@ int MaxHeap::size(){
 }
 
 // isEmpty
-bool MaxHeap::isEmpty
+bool MaxHeap::isEmpty(){
+    if (sizeHeap > 0) {
+        return false;
+    }
+    return true;
+}
+
+// returns th
