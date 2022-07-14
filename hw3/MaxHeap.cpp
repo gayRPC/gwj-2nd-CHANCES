@@ -45,4 +45,9 @@ int MaxHeap::peek(){
     if (!isEmpty()) {
         return items[0];
     }
-    // boolean flag indic
+    // boolean flag indicating not found
+    cout << "ERROR: The heap is empty" << endl;
+    return -1;
+}
+
+// insert a
