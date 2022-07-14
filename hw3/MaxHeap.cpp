@@ -41,4 +41,8 @@ bool MaxHeap::isEmpty(){
 
 // returns the max element of the heap
 int MaxHeap::peek(){
-    // maximum element always be the first elemen
+    // maximum element always be the first element of the heap
+    if (!isEmpty()) {
+        return items[0];
+    }
+    // boolean flag indic
