@@ -39,4 +39,6 @@ bool MaxHeap::isEmpty(){
     return true;
 }
 
-// returns th
+// returns the max element of the heap
+int MaxHeap::peek(){
+    // maximum element always be the first elemen
