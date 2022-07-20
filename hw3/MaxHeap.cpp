@@ -68,4 +68,6 @@ void MaxHeap::insert(int value){
         
         int parent = (pos -1)/2;
         while ((pos > 0) && (items[pos] > items[parent])) {
-            // swap elements if parent is sm
+            // swap elements if parent is smaller than the current element
+            int temp =  items[parent];
+            item
