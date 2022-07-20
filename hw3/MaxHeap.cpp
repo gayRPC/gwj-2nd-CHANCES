@@ -61,4 +61,6 @@ void MaxHeap::insert(int value){
         return;
     } else {
         // place the item at the end
-     
+        items[sizeHeap] = value;
+        
+        // remember the place and move the item to the t
