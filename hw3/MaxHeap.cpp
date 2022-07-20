@@ -73,4 +73,7 @@ void MaxHeap::insert(int value){
             items[parent] = items[pos];
             items[pos] = temp;
             
-        
+            // move current node and parent up
+            pos = parent;
+            parent = (pos - 1)/2;
+    
