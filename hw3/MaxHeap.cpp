@@ -84,4 +84,7 @@ void MaxHeap::insert(int value){
 
 
 
-// retrieves and delet
+// retrieves and deletes max element from the heap
+int MaxHeap::extractMax(){
+    if (isEmpty()) {
+       
