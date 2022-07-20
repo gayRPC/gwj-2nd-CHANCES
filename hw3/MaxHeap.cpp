@@ -76,4 +76,12 @@ void MaxHeap::insert(int value){
             // move current node and parent up
             pos = parent;
             parent = (pos - 1)/2;
-    
+        }
+        // increase the size
+        sizeHeap++;
+    }
+}
+
+
+
+// retrieves and delet
