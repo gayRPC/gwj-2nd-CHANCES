@@ -63,4 +63,8 @@ void MaxHeap::insert(int value){
         // place the item at the end
         items[sizeHeap] = value;
         
-        // remember the place and move the item to the t
+        // remember the place and move the item to the top
+        int pos = size();
+        
+        int parent = (pos -1)/2;
+        while ((pos
