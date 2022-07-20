@@ -57,4 +57,8 @@ void MaxHeap::insert(int value){
     // 2) Go up to by checking parents and max heap condition
     if (size() >= MAX_SIZE) {
         // 0) reached to the maximum size
-        cout << "ERROR: max size rea
+        cout << "ERROR: max size reached can't insert!" << endl;
+        return;
+    } else {
+        // place the item at the end
+     
