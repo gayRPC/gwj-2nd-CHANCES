@@ -87,4 +87,6 @@ void MaxHeap::insert(int value){
 // retrieves and deletes max element from the heap
 int MaxHeap::extractMax(){
     if (isEmpty()) {
-       
+        // heap is empty
+        cout << "ERROR: Heap is empty can't extract the max" << endl;
+        r
