@@ -89,4 +89,8 @@ int MaxHeap::extractMax(){
     if (isEmpty()) {
         // heap is empty
         cout << "ERROR: Heap is empty can't extract the max" << endl;
-        r
+        return -1;
+    } else {
+        // save the maximum element
+        int maxItem = peek();
+       
