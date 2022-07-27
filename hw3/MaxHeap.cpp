@@ -93,4 +93,6 @@ int MaxHeap::extractMax(){
     } else {
         // save the maximum element
         int maxItem = peek();
-       
+        // call heapDelete function
+        heapDelete(items[0]);
+        return maxItem
