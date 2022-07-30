@@ -95,4 +95,11 @@ int MaxHeap::extractMax(){
         int maxItem = peek();
         // call heapDelete function
         heapDelete(items[0]);
-        return maxItem
+        return maxItem;
+    }
+}
+
+
+// ========== PRIVATE HELPER FUNCTIONS =============== //////
+
+// HeapRebuild: satisfy h
