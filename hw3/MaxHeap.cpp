@@ -102,4 +102,7 @@ int MaxHeap::extractMax(){
 
 // ========== PRIVATE HELPER FUNCTIONS =============== //////
 
-// HeapRebuild: satisfy h
+// HeapRebuild: satisfy heap property again
+void MaxHeap::heapRebuild(int root){
+    int childPtr = (root * 2) + 1;
+    if ( child
