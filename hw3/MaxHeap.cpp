@@ -105,4 +105,6 @@ int MaxHeap::extractMax(){
 // HeapRebuild: satisfy heap property again
 void MaxHeap::heapRebuild(int root){
     int childPtr = (root * 2) + 1;
-    if ( child
+    if ( childPtr < size()) {
+        // not a leaf situation check existance of right child
+        int
