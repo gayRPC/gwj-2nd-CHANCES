@@ -107,4 +107,5 @@ void MaxHeap::heapRebuild(int root){
     int childPtr = (root * 2) + 1;
     if ( childPtr < size()) {
         // not a leaf situation check existance of right child
-        int
+        int rightChildPtr = childPtr + 1;     // index of a right child, if any
+        // If root has righ
