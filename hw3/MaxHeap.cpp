@@ -109,4 +109,5 @@ void MaxHeap::heapRebuild(int root){
         // not a leaf situation check existance of right child
         int rightChildPtr = childPtr + 1;     // index of a right child, if any
         // If root has right child, find larger child
-        if ( (rightChildPtr < size()) && (items[rightChild
+        if ( (rightChildPtr < size()) && (items[rightChildPtr] >items[childPtr]) ){
+            childPtr = rightChildPtr;     // get the position of the largest chi
