@@ -110,4 +110,7 @@ void MaxHeap::heapRebuild(int root){
         int rightChildPtr = childPtr + 1;     // index of a right child, if any
         // If root has right child, find larger child
         if ( (rightChildPtr < size()) && (items[rightChildPtr] >items[childPtr]) ){
-            childPtr = rightChildPtr;     // get the position of the largest chi
+            childPtr = rightChildPtr;     // get the position of the largest child
+        }
+        // check root value swap if smaller
+        if ( items[root] 
