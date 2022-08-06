@@ -115,4 +115,7 @@ void MaxHeap::heapRebuild(int root){
         // check root value swap if smaller
         if ( items[root] < items[childPtr]) {
             int temp = items[root];
-            items[root] = items[child
+            items[root] = items[childPtr];
+            items[childPtr] = temp;
+            
+            // obtain the heap property back 
