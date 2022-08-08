@@ -118,4 +118,11 @@ void MaxHeap::heapRebuild(int root){
             items[root] = items[childPtr];
             items[childPtr] = temp;
             
-            // obtain the heap property back 
+            // obtain the heap property back for child pointer
+            heapRebuild(childPtr);
+        }
+    }
+}
+
+
+// deletes the root item
