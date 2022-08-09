@@ -128,4 +128,7 @@ void MaxHeap::heapRebuild(int root){
 // deletes the root item from the heap
 void MaxHeap::heapDelete(int &rootItem){
     if (isEmpty()) {
-        cout << "ERROR: 
+        cout << "ERROR: Heap is empty !!!" << endl;
+    } else {
+        rootItem = peek();
+        items[0] = items
