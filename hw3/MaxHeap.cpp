@@ -125,4 +125,7 @@ void MaxHeap::heapRebuild(int root){
 }
 
 
-// deletes the root item
+// deletes the root item from the heap
+void MaxHeap::heapDelete(int &rootItem){
+    if (isEmpty()) {
+        cout << "ERROR: 
