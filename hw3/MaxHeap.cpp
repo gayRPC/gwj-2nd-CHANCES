@@ -131,4 +131,9 @@ void MaxHeap::heapDelete(int &rootItem){
         cout << "ERROR: Heap is empty !!!" << endl;
     } else {
         rootItem = peek();
-        items[0] = items
+        items[0] = items[--sizeHeap];
+        heapRebuild(0);
+    }
+}
+
+
