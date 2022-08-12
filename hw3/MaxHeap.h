@@ -4,4 +4,5 @@
  * ID: 21703381
  * Section : 2
  * Assignment : 3
- * Description : Interf
+ * Description : Interface for the max heap data structure.
+ *             - Note: Methods with TO
