@@ -5,4 +5,8 @@
  * Section : 2
  * Assignment : 3
  * Description : Interface for the max heap data structure.
- *             - Note: Methods with TO
+ *             - Note: Methods with TODO are required functions for the assignment
+ */
+
+#ifndef MaxHeap_h
+#define MaxHeap_h
