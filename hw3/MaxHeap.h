@@ -10,3 +10,10 @@
 
 #ifndef MaxHeap_h
 #define MaxHeap_h
+
+const int MAX_SIZE = 100;
+class MaxHeap {
+public:
+    // Constructor
+    MaxHeap();
+  
