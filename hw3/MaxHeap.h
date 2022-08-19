@@ -16,4 +16,9 @@ class MaxHeap {
 public:
     // Constructor
     MaxHeap();
-  
+    
+    // Destructor
+    ~MaxHeap();
+    
+    /**
+     * @brief inserts integer into he
