@@ -21,4 +21,8 @@ public:
     ~MaxHeap();
     
     /**
-     * @brief inserts integer into he
+     * @brief inserts integer into heap
+     * @param value type(int)
+     * TODO: Done
+     */
+    void insert(int val
