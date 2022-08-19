@@ -25,4 +25,8 @@ public:
      * @param value type(int)
      * TODO: Done
      */
-    void insert(int val
+    void insert(int value);
+    
+    /**
+     * @brief returns the value of the max element
+     * @return maxEleme
