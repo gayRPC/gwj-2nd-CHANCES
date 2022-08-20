@@ -39,4 +39,6 @@ public:
      * TODO:
      */
     int extractMax();
-  
+    
+    /**
+     * @brief returns the number of elements in the hea
