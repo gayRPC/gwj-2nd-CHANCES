@@ -29,4 +29,10 @@ public:
     
     /**
      * @brief returns the value of the max element
-     * @return maxEleme
+     * @return maxElement -1 if the heap is empty
+     * TODO: Done
+     */
+    int peek();
+    
+    /**
+     * @brief retrieves and
