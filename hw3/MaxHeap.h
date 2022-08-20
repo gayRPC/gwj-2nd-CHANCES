@@ -41,4 +41,10 @@ public:
     int extractMax();
     
     /**
-     * @brief returns the number of elements in the hea
+     * @brief returns the number of elements in the heap
+     * TODO: Done
+     */
+    int size();
+    
+    /**
+     * @brief Check heap 
