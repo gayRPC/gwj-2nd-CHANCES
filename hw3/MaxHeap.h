@@ -35,4 +35,8 @@ public:
     int peek();
     
     /**
-     * @brief retrieves and
+     * @brief retrieves and removes the max element
+     * TODO:
+     */
+    int extractMax();
+  
