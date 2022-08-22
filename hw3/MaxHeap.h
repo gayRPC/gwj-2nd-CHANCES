@@ -57,4 +57,6 @@ private:
     int *items; // array to keep the max-heap structure
     
     /**
- 
+     * @brief Deletes the root item which is also the max item from the heap
+     */
+    v
