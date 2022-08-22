@@ -54,3 +54,7 @@ public:
     
 private:
     int sizeHeap; // for tracking size of the array
+    int *items; // array to keep the max-heap structure
+    
+    /**
+ 
