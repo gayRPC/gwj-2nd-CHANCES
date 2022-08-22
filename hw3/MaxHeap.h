@@ -47,4 +47,7 @@ public:
     int size();
     
     /**
-     * @brief Check heap 
+     * @brief Check heap is empty or not
+     * @return flag indicating heap is empty or not
+     */
+    b
