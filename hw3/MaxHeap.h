@@ -59,4 +59,8 @@ private:
     /**
      * @brief Deletes the root item which is also the max item from the heap
      */
-    v
+    void heapDelete(int &rootItem);
+    
+    
+    /**
+     * @brief Rearrange the heap in orde
