@@ -8,4 +8,9 @@
  *             - Check header file (.h) for more detailed explenation of the code.
  */
 
-#include "MedianHe
+#include "MedianHeap.h"
+
+MedianHeap::MedianHeap(){
+    size = 0;
+    upper = MinHeap();
+    lower = MaxHe
