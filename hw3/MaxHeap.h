@@ -63,4 +63,9 @@ private:
     
     
     /**
-     * @brief Rearrange the heap in orde
+     * @brief Rearrange the heap in order to satisfy heap property again
+     */
+    void heapRebuild(int root);
+};
+#endif
+
