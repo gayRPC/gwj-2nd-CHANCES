@@ -13,4 +13,8 @@
 MedianHeap::MedianHeap(){
     size = 0;
     upper = MinHeap();
-    lower = MaxHe
+    lower = MaxHeap();
+}
+
+// find the insertion point of the array
+void MedianHeap::insert(i
