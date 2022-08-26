@@ -17,4 +17,6 @@ MedianHeap::MedianHeap(){
 }
 
 // find the insertion point of the array
-void MedianHeap::insert(i
+void MedianHeap::insert(int value){
+    // 1) Check the max heap's size
+    // 2) If there it's empty or value 
