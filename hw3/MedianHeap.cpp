@@ -23,4 +23,8 @@ void MedianHeap::insert(int value){
     if(lower.isEmpty() || (value < lower.peek())){
         lower.insert(value);
         rebalance();
-        size++
+        size++;
+        // check the balance condition
+    } else {
+        upper.insert(value);
+        reba
