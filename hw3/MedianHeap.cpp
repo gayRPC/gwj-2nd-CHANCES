@@ -19,4 +19,5 @@ MedianHeap::MedianHeap(){
 // find the insertion point of the array
 void MedianHeap::insert(int value){
     // 1) Check the max heap's size
-    // 2) If there it's empty or value 
+    // 2) If there it's empty or value smaller than lower's max add to the max-heap
+    if(lower.isEmpty() || (val
