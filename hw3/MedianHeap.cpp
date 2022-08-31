@@ -27,4 +27,11 @@ void MedianHeap::insert(int value){
         // check the balance condition
     } else {
         upper.insert(value);
-        reba
+        rebalance();
+        size++;
+    }
+}
+
+
+
+// helper to determine the heap with the bigger 
