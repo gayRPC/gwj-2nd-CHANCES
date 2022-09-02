@@ -36,4 +36,6 @@ void MedianHeap::insert(int value){
 
 // helper to determine the heap with the bigger size
 void MedianHeap::findBiggerHeap(int &flag, int &maxSize, int &minSize){
-    if 
+    if (lower.size() > upper.size()) {
+        // max heap size is bigger
+        fla
