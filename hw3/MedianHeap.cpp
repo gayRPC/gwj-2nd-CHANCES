@@ -42,4 +42,7 @@ void MedianHeap::findBiggerHeap(int &flag, int &maxSize, int &minSize){
         maxSize = lower.size();
         minSize = upper.size();
     } else {
-  
+        // min heap size is bigger
+        flag = 0;
+        maxSize = upper.size();
+        min
