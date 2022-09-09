@@ -51,4 +51,8 @@ void MedianHeap::findBiggerHeap(int &flag, int &maxSize, int &minSize){
 
 // rebalances the max-heap and min-heap size when they differ more than 1 item
 void MedianHeap::rebalance(){
-    // determine the heap which has the gratest s
+    // determine the heap which has the gratest size
+    int flag = -1;
+    int maxSize;
+    int minSize;
+    findBiggerHeap(flag, m
