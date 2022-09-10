@@ -55,4 +55,6 @@ void MedianHeap::rebalance(){
     int flag = -1;
     int maxSize;
     int minSize;
-    findBiggerHeap(flag, m
+    findBiggerHeap(flag, maxSize, minSize);
+    // rebalance if the size of heaps differ more than 1 element
+    if (maxSize 
