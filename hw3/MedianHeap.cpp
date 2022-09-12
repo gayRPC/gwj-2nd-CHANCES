@@ -77,4 +77,6 @@ int MedianHeap::findMedian(){
     // same with chceking size % 2 == 0
     if (size % 2 == 0) {
         // choose the larger of the elements
-  
+        int res;
+        if (upper.peek() > lower.peek()) {
+            res = upper.pe
