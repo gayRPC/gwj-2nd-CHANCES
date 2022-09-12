@@ -72,4 +72,6 @@ void MedianHeap::rebalance(){
 
 
 // find the median by using median heap data structure O(1) time
-int Med
+int MedianHeap::findMedian(){
+    // if their size is equal straightforward average calculation
+    // same with chceking s
