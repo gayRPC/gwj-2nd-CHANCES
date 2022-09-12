@@ -63,4 +63,5 @@ void MedianHeap::rebalance(){
             // get element from the max heap and add to the min heap
             upper.insert(lower.extractMax());
         } else {
-            
+            // min heap has a greater size
+            // get element from the min heap and
