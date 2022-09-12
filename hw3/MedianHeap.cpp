@@ -60,4 +60,7 @@ void MedianHeap::rebalance(){
     if (maxSize - minSize > 1) {
         if (lower.size() > upper.size()) {
             // max heap has the bigger size
-            // get element from the max heap and add
+            // get element from the max heap and add to the min heap
+            upper.insert(lower.extractMax());
+        } else {
+            
