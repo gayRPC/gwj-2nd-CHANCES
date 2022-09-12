@@ -59,4 +59,5 @@ void MedianHeap::rebalance(){
     // rebalance if the size of heaps differ more than 1 element
     if (maxSize - minSize > 1) {
         if (lower.size() > upper.size()) {
-            // max he
+            // max heap has the bigger size
+            // get element from the max heap and add
