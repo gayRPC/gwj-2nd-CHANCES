@@ -79,4 +79,9 @@ int MedianHeap::findMedian(){
         // choose the larger of the elements
         int res;
         if (upper.peek() > lower.peek()) {
-            res = upper.pe
+            res = upper.peek();
+        } else {
+            res = lower.peek();
+        }
+        return res;
+ 
