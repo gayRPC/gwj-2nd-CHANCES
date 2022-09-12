@@ -66,4 +66,10 @@ void MedianHeap::rebalance(){
             // min heap has a greater size
             // get element from the min heap and add it to the max heap
             lower.insert(upper.extractMin());
-     
+        }
+    }
+}
+
+
+// find the median by using median heap data structure O(1) time
+int Med
