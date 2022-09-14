@@ -3,4 +3,6 @@
  * Author : Zeynep Cankara
  * ID: 21703381
  * Section : 2
- * Assign
+ * Assignment : 3
+ * Description : Interface for the median heap data structure.
+ *          
