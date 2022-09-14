@@ -89,4 +89,8 @@ int MedianHeap::findMedian(){
             // max heap has the bigger size return the peek
             return upper.peek();
         } else {
-           // min heap has t
+           // min heap has the bigger size return the peek
+            return lower.peek();
+        }
+    }
+}
