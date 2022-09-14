@@ -84,4 +84,6 @@ int MedianHeap::findMedian(){
             res = lower.peek();
         }
         return res;
- 
+    } else {
+        if (upper.size() > lower.size()) {
+            // max heap has the bigger s
