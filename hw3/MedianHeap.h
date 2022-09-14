@@ -9,4 +9,9 @@
  */
 
 #ifndef MedianHeap_h
-#define MedianHea
+#define MedianHeap_h
+
+#include "MaxHeap.h"
+#include "MinHeap.h"
+#include <iostream> // cout
+using namespace std;
