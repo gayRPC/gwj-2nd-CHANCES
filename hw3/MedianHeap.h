@@ -21,4 +21,6 @@ public:
     // constructor
     MedianHeap();
     
-    /
+    /**
+     * @brief inserts an element into MedianHeap
+     * @param value i
