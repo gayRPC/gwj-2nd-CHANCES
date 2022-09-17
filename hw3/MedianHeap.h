@@ -23,4 +23,10 @@ public:
     
     /**
      * @brief inserts an element into MedianHeap
-     * @param value i
+     * @param value integer to insert
+     */
+    void insert(int value);
+    
+    /**
+     * @brief Find the median of the heap
+   
