@@ -29,4 +29,9 @@ public:
     
     /**
      * @brief Find the median of the heap
-   
+     */
+    int findMedian();
+    
+private:
+    // 2 heaps to get median in O(1) time
+ 
