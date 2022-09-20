@@ -34,4 +34,7 @@ public:
     
 private:
     // 2 heaps to get median in O(1) time
- 
+    MaxHeap lower;
+    MinHeap upper;
+    // size of the median heap
+    int si
