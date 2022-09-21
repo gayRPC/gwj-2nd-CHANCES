@@ -37,4 +37,7 @@ private:
     MaxHeap lower;
     MinHeap upper;
     // size of the median heap
-    int si
+    int size;
+    /**
+     * @brief Function for rebalancing the median heap
+     * The heap needs to 
