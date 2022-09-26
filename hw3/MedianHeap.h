@@ -40,4 +40,6 @@ private:
     int size;
     /**
      * @brief Function for rebalancing the median heap
-     * The heap needs to 
+     * The heap needs to rebalanced when size of max heap and min heap differ more than 1 item
+     */
+    v
