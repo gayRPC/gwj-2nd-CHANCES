@@ -42,4 +42,7 @@ private:
      * @brief Function for rebalancing the median heap
      * The heap needs to rebalanced when size of max heap and min heap differ more than 1 item
      */
-    v
+    void rebalance();
+    
+    /**
+     * @brief Function for finding the heap with the bigg
