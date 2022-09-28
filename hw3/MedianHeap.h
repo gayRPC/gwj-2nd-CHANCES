@@ -45,4 +45,5 @@ private:
     void rebalance();
     
     /**
-     * @brief Function for finding the heap with the bigg
+     * @brief Function for finding the heap with the bigger size
+     * @param flag 1 if the max heap has the bigger size 0 if min heap has 
