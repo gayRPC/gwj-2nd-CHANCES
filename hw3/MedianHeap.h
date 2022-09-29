@@ -48,4 +48,6 @@ private:
      * @brief Function for finding the heap with the bigger size
      * @param flag 1 if the max heap has the bigger size 0 if min heap has the bigger size
      * @param maxSize type(int) heap with the mazimum size
-     * @param
+     * @param minSize type(int) heap with the minimum size
+     */
+    void findBiggerHeap(int
