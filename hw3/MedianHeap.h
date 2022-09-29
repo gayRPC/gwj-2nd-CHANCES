@@ -50,4 +50,7 @@ private:
      * @param maxSize type(int) heap with the mazimum size
      * @param minSize type(int) heap with the minimum size
      */
-    void findBiggerHeap(int
+    void findBiggerHeap(int &flag, int &maxSize, int &minSize);
+    
+};
+#endif
