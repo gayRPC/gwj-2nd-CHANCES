@@ -8,4 +8,10 @@
  *             - Check header file (.h) for more detailed explenation of the code.
  */
 #include "MinHeap.h"
-#include <iostream> // #for 
+#include <iostream> // #for cout <<
+using namespace std;
+
+const int MAX_SIZE2 = 100;
+
+// Constructor
+MinHeap::MinHeap
