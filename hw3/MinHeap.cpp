@@ -20,4 +20,7 @@ MinHeap::MinHeap(){
 }
 
 // Destructor
-MinHeap::~MinHeap
+MinHeap::~MinHeap(){
+    if (!isEmpty()) {
+        // deallocate the heap space
+        delete [] items;
