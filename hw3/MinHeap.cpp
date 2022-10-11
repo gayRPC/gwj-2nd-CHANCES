@@ -14,4 +14,10 @@ using namespace std;
 const int MAX_SIZE2 = 100;
 
 // Constructor
-MinHeap::MinHeap
+MinHeap::MinHeap(){
+    sizeHeap = 0;
+    items = new int[MAX_SIZE2];
+}
+
+// Destructor
+MinHeap::~MinHeap
