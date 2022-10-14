@@ -24,3 +24,13 @@ MinHeap::~MinHeap(){
     if (!isEmpty()) {
         // deallocate the heap space
         delete [] items;
+        sizeHeap = 0;
+    }
+}
+
+// size
+int MinHeap::size(){
+    return sizeHeap;
+}
+
+// i
