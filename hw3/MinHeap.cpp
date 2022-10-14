@@ -33,4 +33,9 @@ int MinHeap::size(){
     return sizeHeap;
 }
 
-// i
+// isEmpty
+bool MinHeap::isEmpty(){
+    if (sizeHeap > 0) {
+        return false;
+    }
+  
