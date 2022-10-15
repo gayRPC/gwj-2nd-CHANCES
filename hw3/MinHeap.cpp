@@ -38,4 +38,9 @@ bool MinHeap::isEmpty(){
     if (sizeHeap > 0) {
         return false;
     }
-  
+    return true;
+}
+
+// returns the max element of the heap
+int MinHeap::peek(){
+    // ma
