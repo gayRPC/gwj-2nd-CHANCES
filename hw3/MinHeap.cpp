@@ -45,4 +45,7 @@ bool MinHeap::isEmpty(){
 int MinHeap::peek(){
     // maximum element always be the first element of the heap
     if (!isEmpty()) {
-        return i
+        return items[0];
+    }
+    // boolean flag indicating not found
+    cout << "ERROR: The heap is empty" << e
