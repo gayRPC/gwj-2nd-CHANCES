@@ -43,4 +43,6 @@ bool MinHeap::isEmpty(){
 
 // returns the max element of the heap
 int MinHeap::peek(){
-    // ma
+    // maximum element always be the first element of the heap
+    if (!isEmpty()) {
+        return i
