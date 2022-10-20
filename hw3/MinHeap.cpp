@@ -48,4 +48,9 @@ int MinHeap::peek(){
         return items[0];
     }
     // boolean flag indicating not found
-    cout << "ERROR: The heap is empty" << e
+    cout << "ERROR: The heap is empty" << endl;
+    return -1;
+}
+
+// insert a new value into the heap
+void MinHeap::insert(int va
