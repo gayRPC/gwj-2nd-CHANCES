@@ -53,4 +53,6 @@ int MinHeap::peek(){
 }
 
 // insert a new value into the heap
-void MinHeap::insert(int va
+void MinHeap::insert(int value){
+    // 0) Check whether there is a space left for inserting the value
+    // 1) Appan
