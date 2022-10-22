@@ -56,4 +56,6 @@ int MinHeap::peek(){
 void MinHeap::insert(int value){
     // 0) Check whether there is a space left for inserting the value
     // 1) Appand the new value at the end of the array
-    // 2) Go up to by checking parents
+    // 2) Go up to by checking parents and max heap condition
+    if (size() >= MAX_SIZE2) {
+        // 0) reached to the maximum 
