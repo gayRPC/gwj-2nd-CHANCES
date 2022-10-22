@@ -58,4 +58,7 @@ void MinHeap::insert(int value){
     // 1) Appand the new value at the end of the array
     // 2) Go up to by checking parents and max heap condition
     if (size() >= MAX_SIZE2) {
-        // 0) reached to the maximum 
+        // 0) reached to the maximum size
+        cout << "ERROR: max size reached can't insert!" << endl;
+        return;
+    } else
