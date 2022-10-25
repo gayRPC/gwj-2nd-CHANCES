@@ -65,4 +65,7 @@ void MinHeap::insert(int value){
         // place the item at the end
         items[sizeHeap] = value;
         
-        // rem
+        // remember the place and move the item to the top
+        int pos = size();
+        
+      
