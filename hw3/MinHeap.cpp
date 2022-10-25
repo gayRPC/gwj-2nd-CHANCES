@@ -68,4 +68,6 @@ void MinHeap::insert(int value){
         // remember the place and move the item to the top
         int pos = size();
         
-      
+        int parent = (pos -1)/2;
+        while ((pos > 0) && (items[pos] < items[parent])) {
+           
