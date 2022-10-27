@@ -73,4 +73,6 @@ void MinHeap::insert(int value){
             // swap elements if parent is smaller than the current element
             int temp =  items[parent];
             items[parent] = items[pos];
-       
+            items[pos] = temp;
+            
+            // move current node and parent up
