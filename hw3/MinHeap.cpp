@@ -76,3 +76,7 @@ void MinHeap::insert(int value){
             items[pos] = temp;
             
             // move current node and parent up
+            pos = parent;
+            parent = (pos - 1)/2;
+        }
+        // increase 
