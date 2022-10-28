@@ -87,4 +87,9 @@ void MinHeap::insert(int value){
 
 
 // retrieves and deletes max element from the heap
-int MinHeap:
+int MinHeap::extractMin(){
+    if (isEmpty()) {
+        // heap is empty
+        return -1;
+    } else {
+   
