@@ -79,4 +79,12 @@ void MinHeap::insert(int value){
             pos = parent;
             parent = (pos - 1)/2;
         }
-        // increase 
+        // increase the size
+        sizeHeap++;
+    }
+}
+
+
+
+// retrieves and deletes max element from the heap
+int MinHeap:
