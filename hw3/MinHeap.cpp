@@ -92,4 +92,7 @@ int MinHeap::extractMin(){
         // heap is empty
         return -1;
     } else {
-   
+        // save the maximum element
+        int minItem = peek();
+        // call heapDelete function
+      
