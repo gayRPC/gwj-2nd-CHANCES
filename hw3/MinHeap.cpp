@@ -95,4 +95,10 @@ int MinHeap::extractMin(){
         // save the maximum element
         int minItem = peek();
         // call heapDelete function
-      
+        heapDelete(items[0]);
+        return minItem;
+    }
+}
+
+
+// ========== PRIVATE HELPER FUNCTION
