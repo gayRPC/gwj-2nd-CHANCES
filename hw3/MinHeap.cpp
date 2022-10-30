@@ -101,4 +101,7 @@ int MinHeap::extractMin(){
 }
 
 
-// ========== PRIVATE HELPER FUNCTION
+// ========== PRIVATE HELPER FUNCTIONS =============== //////
+
+// HeapRebuild: satisfy heap property again
+void MinHeap::heapR
