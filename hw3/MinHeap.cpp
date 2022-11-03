@@ -104,4 +104,7 @@ int MinHeap::extractMin(){
 // ========== PRIVATE HELPER FUNCTIONS =============== //////
 
 // HeapRebuild: satisfy heap property again
-void MinHeap::heapR
+void MinHeap::heapRebuild(int root){
+    int childPtr = (root * 2) + 1;
+    if ( childPtr < size()) {
+        /
