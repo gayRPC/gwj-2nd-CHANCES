@@ -120,4 +120,11 @@ void MinHeap::heapRebuild(int root){
             items[childPtr] = temp;
             
             // obtain the heap property back for child pointer
-            heapRebuild(child
+            heapRebuild(childPtr);
+        }
+    }
+}
+
+
+// deletes the root item from the heap
+void MinHeap::heapDelete(int &ro
