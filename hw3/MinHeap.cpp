@@ -114,4 +114,6 @@ void MinHeap::heapRebuild(int root){
             childPtr = rightChildPtr;     // get the position of the smallest child
         }
         // check root value swap if larger
-    
+        if ( items[root] > items[childPtr]) {
+            int temp = items[root];
+ 
