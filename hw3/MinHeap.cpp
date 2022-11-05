@@ -118,4 +118,6 @@ void MinHeap::heapRebuild(int root){
             int temp = items[root];
             items[root] = items[childPtr];
             items[childPtr] = temp;
-          
+            
+            // obtain the heap property back for child pointer
+            heapRebuild(child
