@@ -127,4 +127,7 @@ void MinHeap::heapRebuild(int root){
 
 
 // deletes the root item from the heap
-void MinHeap::heapDelete(int &ro
+void MinHeap::heapDelete(int &rootItem){
+    if (isEmpty()) {
+        cout << "ERROR: Heap is empty !!!" << endl;
+    } else
