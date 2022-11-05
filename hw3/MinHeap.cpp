@@ -111,4 +111,7 @@ void MinHeap::heapRebuild(int root){
         int rightChildPtr = childPtr + 1;     // index of a right child, if any
         // If root has right child, find larger child
         if ( (rightChildPtr < size()) && (items[rightChildPtr] < items[childPtr]) ){
-            childPtr = rightChildPtr;     // get the position of th
+            childPtr = rightChildPtr;     // get the position of the smallest child
+        }
+        // check root value swap if larger
+    
