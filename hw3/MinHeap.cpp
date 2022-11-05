@@ -109,4 +109,5 @@ void MinHeap::heapRebuild(int root){
     if ( childPtr < size()) {
         // not a leaf situation check existance of right child
         int rightChildPtr = childPtr + 1;     // index of a right child, if any
-        // If root has right child, fi
+        // If root has right child, find larger child
+        if ( (rightChildPtr < size()) && (items[rightChildPtr] < items
