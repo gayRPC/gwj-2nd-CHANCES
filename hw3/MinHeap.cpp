@@ -135,3 +135,8 @@ void MinHeap::heapDelete(int &rootItem){
         items[0] = items[--sizeHeap];
         heapRebuild(0);
     }
+}
+
+
+
+
