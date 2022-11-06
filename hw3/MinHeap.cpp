@@ -130,4 +130,8 @@ void MinHeap::heapRebuild(int root){
 void MinHeap::heapDelete(int &rootItem){
     if (isEmpty()) {
         cout << "ERROR: Heap is empty !!!" << endl;
-    } else
+    } else {
+        rootItem = peek();
+        items[0] = items[--sizeHeap];
+        heapRebuild(0);
+    }
