@@ -23,4 +23,9 @@ public:
     /**
      * @brief inserts integer into heap
      * @param value type(int)
-     
+     * TODO: Done
+     */
+    void insert(int value);
+    
+    /**
+     * @brief returns the valu
