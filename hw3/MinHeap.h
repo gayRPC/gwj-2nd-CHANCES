@@ -18,4 +18,9 @@ public:
     MinHeap();
     
     // Destructor
-    ~MinHea
+    ~MinHeap();
+    
+    /**
+     * @brief inserts integer into heap
+     * @param value type(int)
+     
