@@ -12,4 +12,10 @@
 #define MinHeap_h
 
 // ========= MIN HEAP =========== //
-clas
+class MinHeap{
+public:
+    // Constructor
+    MinHeap();
+    
+    // Destructor
+    ~MinHea
