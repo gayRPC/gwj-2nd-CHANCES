@@ -49,4 +49,7 @@ public:
     /**
      * @brief Check heap is empty or not
      * @return flag indicating heap is empty or not
- 
+     */
+    bool isEmpty();
+private:
+    int sizeHeap; // for tracking size of the arra
