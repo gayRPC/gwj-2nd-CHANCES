@@ -41,4 +41,10 @@ public:
     int extractMin();
     
     /**
-     * @brief returns the 
+     * @brief returns the number of elements in the heap
+     * TODO: Done
+     */
+    int size();
+    
+    /**
+     * @b
