@@ -30,4 +30,9 @@ public:
     /**
      * @brief returns the value of the min element
      * @return minElement -1 if the heap is empty
-     * TODO:
+     * TODO: Done
+     */
+    int peek();
+    
+    /**
+     * @brief retrieves and removes the min
