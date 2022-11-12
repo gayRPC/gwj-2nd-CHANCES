@@ -35,4 +35,10 @@ public:
     int peek();
     
     /**
-     * @brief retrieves and removes the min
+     * @brief retrieves and removes the min element
+     * TODO:
+     */
+    int extractMin();
+    
+    /**
+     * @brief returns the 
