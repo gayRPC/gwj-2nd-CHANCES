@@ -28,4 +28,6 @@ public:
     void insert(int value);
     
     /**
-     * @brief returns the valu
+     * @brief returns the value of the min element
+     * @return minElement -1 if the heap is empty
+     * TODO:
