@@ -52,4 +52,8 @@ public:
      */
     bool isEmpty();
 private:
-    int sizeHeap; // for tracking size of the arra
+    int sizeHeap; // for tracking size of the array
+    int *items; // array to keep the min-heap structure
+    
+    /**
+     * @brie
