@@ -58,4 +58,8 @@ private:
     /**
      * @brief Deletes the root item which is also the min item from the heap
      */
-    void heapDelete(int &rootItem
+    void heapDelete(int &rootItem);
+    
+    
+    /**
+     * @brief Rearrange the heap in order to satisfy heap proper
