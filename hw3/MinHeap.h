@@ -56,4 +56,6 @@ private:
     int *items; // array to keep the min-heap structure
     
     /**
-     * @brie
+     * @brief Deletes the root item which is also the min item from the heap
+     */
+    void heapDelete(int &rootItem
