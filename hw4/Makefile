@@ -11,4 +11,6 @@ main.o: main.cpp
 	$(CC) $(CFLAGS) main.cpp
 
 graph.o: graph.cpp
-	$(CC) $
+	$(CC) $(CFLAGS) graph.cpp
+clean:
+	rm *o hw4
