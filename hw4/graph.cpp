@@ -51,3 +51,87 @@ list<string> Graph::getAdjacentAirports(const string& airportName)
     list<string> airportList;
     // check airport with the airportname exists or not
     if(adjList.find(airportName) != adjList.end()){
+        // initialize the map with the airport 2
+        list<node>::iterator iterNode = adjList[airportName].begin();
+        // iterate the list
+        while(iterNode != adjList[airportName].end())
+        {
+            airportList.push_back(iterNode->airportName);
+            iterNode++;
+        }
+    }
+    return airportList;
+}  // end getAdjacentAirports
+
+int Graph::getTotalPassengers(const string& airportName)
+{   /*YOUR IMPLEMENTATION*/
+    // total number of passengers transported
+    int totalPassengers = 0;
+    // get the vertex iterate over the vertex
+    // check airport with the airportname exists or not
+    if(adjList.find(airportName) != adjList.end()){
+        // initialize the map with the airport 2
+        list<node>::iterator iterNode = adjList[airportName].begin();
+        // iterate the list
+        while(iterNode != adjList[airportName].end())
+        {
+            // increment passengers
+            totalPassengers += iterNode->numOfPassengers;
+            iterNode++;
+        }
+    }
+    return totalPassengers;
+}  // end getTotalPassengers
+
+
+list<string> Graph::findShortestPath(const string& airport1, const string& airport2)
+{   /*YOUR IMPLEMENTATION*/
+    // idea: BFS to find shortest find in the unweighted airport graph
+    list<string> shortestPath;
+    // if source airport does not exist
+    if (adjList.find(airport1) == adjList.end()) {
+        return shortestPath;
+    }
+    list<string> visited;
+    queue<list<node>> airportQueue;
+    // mark the visited vertex
+    visited.push_back(airport1);
+    shortestPath.push_back(airport1);
+    // beacuse it will popped deleted
+    shortestPath.push_back(airport1);
+    // find the node list with the source airport name
+    list<node> vertexList = adjList.find(airport1)->second;
+    airportQueue.push(vertexList);
+    bool isVisited;
+    while (!airportQueue.empty()) {
+        // access the element in the queue
+        list<node> adjNodes = airportQueue.front();
+        // remove the element from queue
+        airportQueue.pop();
+        // find by value
+        string vertex;
+        findByValue(adjNodes, vertex);
+        shortestPath.pop_back();
+        shortestPath.push_back(vertex);
+        // iterate through the adjaceny vertex
+        for (list<node>::iterator it = adjNodes.begin(); it != adjNodes.end(); ++it){
+            // look whether current node visited or not
+            isVisited = false;
+            for (list<string>::iterator itVisited = visited.begin(); itVisited != visited.end(); itVisited++) {
+                if ((*itVisited) == it->airportName) {
+                    isVisited = true;
+                }
+            }
+            // only visit the unvisited nodes
+            if (!isVisited) {
+                // mark current node as visited
+                visited.push_back(it->airportName);
+                // check whether you reached the end of search
+                if (it->airportName == airport2) {
+                    shortestPath.push_back(airport2);
+                    return shortestPath;
+                }
+                // enqueue the node
+                vertexList = adjList.find(it->airportName)->second;
+                airportQueue.push(vertexList);
+            }
