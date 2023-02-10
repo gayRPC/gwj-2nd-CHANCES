@@ -135,3 +135,83 @@ list<string> Graph::findShortestPath(const string& airport1, const string& airpo
                 vertexList = adjList.find(it->airportName)->second;
                 airportQueue.push(vertexList);
             }
+        }
+    }
+    return shortestPath;
+}  // end findShortestPath
+
+void Graph::findByValue( list<node> adjNodes, string &result){
+    map< string, list<node> >::iterator it = adjList.begin();
+    // Iterate through the map
+    result = "";
+    while(it != adjList.end())
+    {
+        // Check if value of this entry matches with given value
+        bool isEqual = equalNodes(it->second, adjNodes);
+        if(isEqual) 
+        {
+            // Push the key in given map
+            result =  it->first;
+        }
+        // Goto next
+        it++;
+    }
+}
+
+bool Graph::equalNodes(list<node> adjNodes1, list<node> adjNodes2){
+    list<node>::iterator it = adjNodes1.begin();
+    list<node>::iterator it2 = adjNodes2.begin();
+    // Iterate through the map
+    if (adjNodes2.size() != adjNodes1.size()) {
+        return false;
+    }
+    bool flag = true;
+    while(it != adjNodes1.end())
+    {
+        if (it->airportName != it2->airportName) {
+            flag = false;
+        }
+        // Goto next
+        it++;
+        it2++;
+    }
+    return flag;
+}
+
+list< pair<string, string> > Graph::findMST()
+{   /*YOUR IMPLEMENTATION*/
+    list< pair<string, string> > mstPairs;
+    
+    return mstPairs;
+}  // end findMST
+
+
+void Graph::deleteAirport(const string& airportName)
+{   /*YOUR IMPLEMENTATION*/
+    // you must delete the key with the airportName
+    // you must search entire map and delete the airport within each vertex's adjacency list
+    map< string, list<node> >::iterator it = adjList.begin();
+    // Iterate through the map
+    while(it != adjList.end())
+    {
+        // get the vertex and check adjacency connection
+        list<node> adjNodes = it->second;
+        for (list<node>::iterator it1 = adjNodes.begin(); it1 != adjNodes.end(); ++it1){
+            // check nodes airport value
+            if (it1->airportName == airportName) {
+                // remove node
+                it1 = adjNodes.erase(it1);
+                it->second = adjNodes; // new erased adjNodes list passed
+                break;
+            }
+        }
+        // check value of the key
+        if (it->first == airportName) {
+            // delete key
+            it = adjList.erase(it);
+        }
+        // Goto next
+        it++;
+    }
+    
+}  // end deleteAirport
