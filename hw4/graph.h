@@ -11,4 +11,10 @@
 #include <list>
 #include <map>
 #include <queue>
-#i
+#include <string>
+/* Do not add new libraries or files */
+
+using namespace std;
+
+struct node {
+    string 
