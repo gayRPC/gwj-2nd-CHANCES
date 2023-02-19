@@ -17,4 +17,8 @@
 using namespace std;
 
 struct node {
-    string 
+    string airportName;
+    int numOfPassengers;
+};
+
+/** An adjacency list representation of an 
