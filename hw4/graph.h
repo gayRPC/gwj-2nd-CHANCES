@@ -26,4 +26,7 @@ class Graph
 {
 public:
     
-    /** Adjacency list representation of the
+    /** Adjacency list representation of the graph;
+     * the map pair consists of the airport (key)
+     * and the node list (value).
+     
