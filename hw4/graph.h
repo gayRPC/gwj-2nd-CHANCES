@@ -29,4 +29,10 @@ public:
     /** Adjacency list representation of the graph;
      * the map pair consists of the airport (key)
      * and the node list (value).
-     
+     */
+    map< string, list<node> > adjList;
+    
+    /** Constructor.*/
+    Graph();
+    
+    /**
