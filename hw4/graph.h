@@ -21,4 +21,9 @@ struct node {
     int numOfPassengers;
 };
 
-/** An adjacency list representation of an 
+/** An adjacency list representation of an undirected weighted graph. */
+class Graph
+{
+public:
+    
+    /** Adjacency list representation of the
