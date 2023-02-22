@@ -35,4 +35,5 @@ public:
     /** Constructor.*/
     Graph();
     
-    /**
+    /** Adds a new airport to the map with airportName
+     * as key, and an empt
