@@ -39,4 +39,6 @@ public:
      * as key, and an empty node list as value */
     void addAirport(const string& airportName);
     
-    /** Ad
+    /** Adds a new node to the list of airport1
+     * using airport2 and noOfPassengers data, and
+     *
