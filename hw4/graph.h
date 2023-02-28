@@ -36,4 +36,7 @@ public:
     Graph();
     
     /** Adds a new airport to the map with airportName
-     * as key, and an empt
+     * as key, and an empty node list as value */
+    void addAirport(const string& airportName);
+    
+    /** Ad
