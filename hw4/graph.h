@@ -41,4 +41,5 @@ public:
     
     /** Adds a new node to the list of airport1
      * using airport2 and noOfPassengers data, and
-     *
+     * adds a new node to the list of airport2
+     * using airport1 and noOfPassenge
