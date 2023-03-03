@@ -42,4 +42,5 @@ public:
     /** Adds a new node to the list of airport1
      * using airport2 and noOfPassengers data, and
      * adds a new node to the list of airport2
-     * using airport1 and noOfPassenge
+     * using airport1 and noOfPassengers data. */
+    void addConnection(const string& airport1, const string& airport2, int numOfPass
