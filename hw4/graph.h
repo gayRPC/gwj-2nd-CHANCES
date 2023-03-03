@@ -43,4 +43,7 @@ public:
      * using airport2 and noOfPassengers data, and
      * adds a new node to the list of airport2
      * using airport1 and noOfPassengers data. */
-    void addConnection(const string& airport1, const string& airport2, int numOfPass
+    void addConnection(const string& airport1, const string& airport2, int numOfPassengers);
+    
+    /** Given an airport name, returns all adjacent
+     * airports of the given airport as 
