@@ -46,4 +46,5 @@ public:
     void addConnection(const string& airport1, const string& airport2, int numOfPassengers);
     
     /** Given an airport name, returns all adjacent
-     * airports of the given airport as 
+     * airports of the given airport as a list of string. */
+    list<string> getAdjacentAirports(const string& airportName);
