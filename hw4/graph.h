@@ -48,3 +48,6 @@ public:
     /** Given an airport name, returns all adjacent
      * airports of the given airport as a list of string. */
     list<string> getAdjacentAirports(const string& airportName);
+    
+    /** Given an airport name, returns the total number of
+     * passengers t
