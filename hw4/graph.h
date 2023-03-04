@@ -50,4 +50,5 @@ public:
     list<string> getAdjacentAirports(const string& airportName);
     
     /** Given an airport name, returns the total number of
-     * passengers t
+     * passengers transported from/to the given airport as an integer*/
+    int getTotalPassengers(const string& airportName);
