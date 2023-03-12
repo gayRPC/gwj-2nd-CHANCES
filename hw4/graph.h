@@ -54,4 +54,5 @@ public:
     int getTotalPassengers(const string& airportName);
     
     /** Given two airport names, returns the shortest path between
-     * airpor
+     * airports as a list of string. Assumes that all distances among
+     * the airports are eq
