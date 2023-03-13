@@ -55,4 +55,7 @@ public:
     
     /** Given two airport names, returns the shortest path between
      * airports as a list of string. Assumes that all distances among
-     * the airports are eq
+     * the airports are equal. */
+    list<string> findShortestPath(const string& airport1, const string& airport2);
+    
+    /** Ca
