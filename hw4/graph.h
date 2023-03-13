@@ -59,4 +59,5 @@ public:
     list<string> findShortestPath(const string& airport1, const string& airport2);
     
     /** Calculates the minimum spanning tree(MST) of the flight network,
-     * and returns the edge pair
+     * and returns the edge pairs in the MST as a list of string pairs. */
+    list< pair<string, string> > f
