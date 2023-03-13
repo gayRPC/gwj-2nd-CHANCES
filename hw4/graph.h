@@ -58,4 +58,5 @@ public:
      * the airports are equal. */
     list<string> findShortestPath(const string& airport1, const string& airport2);
     
-    /** Ca
+    /** Calculates the minimum spanning tree(MST) of the flight network,
+     * and returns the edge pair
