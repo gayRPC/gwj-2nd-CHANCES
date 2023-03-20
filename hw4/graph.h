@@ -60,4 +60,7 @@ public:
     
     /** Calculates the minimum spanning tree(MST) of the flight network,
      * and returns the edge pairs in the MST as a list of string pairs. */
-    list< pair<string, string> > f
+    list< pair<string, string> > findMST();
+    
+    /** Deletes the given airport from the graph
+     * together with its incident con
