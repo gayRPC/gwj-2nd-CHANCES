@@ -63,4 +63,7 @@ public:
     list< pair<string, string> > findMST();
     
     /** Deletes the given airport from the graph
-     * together with its incident con
+     * together with its incident connections(edges) */
+    void deleteAirport(const string& airportName);
+    
+    // ======= NEW HELPER METHODS ========
