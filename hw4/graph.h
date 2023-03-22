@@ -72,4 +72,6 @@ public:
     /**
      * @brief Find the key of the element just from the value
      */
-    void findByValue( list<node> adjNodes,
+    void findByValue( list<node> adjNodes, string &result);
+    /**
+     * @brief Check whether 2 vertexes are equa
