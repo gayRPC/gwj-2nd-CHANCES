@@ -70,4 +70,6 @@ public:
     // number of airports in the graph
     int numberOfAirports = 220;
     /**
-     * @brie
+     * @brief Find the key of the element just from the value
+     */
+    void findByValue( list<node> adjNodes,
