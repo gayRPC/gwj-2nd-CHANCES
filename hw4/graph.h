@@ -66,4 +66,8 @@ public:
      * together with its incident connections(edges) */
     void deleteAirport(const string& airportName);
     
-    // ======= NEW HELPER METHODS ========
+    // ======= NEW HELPER METHODS ========== //
+    // number of airports in the graph
+    int numberOfAirports = 220;
+    /**
+     * @brie
