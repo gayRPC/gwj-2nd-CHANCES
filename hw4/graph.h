@@ -74,4 +74,6 @@ public:
      */
     void findByValue( list<node> adjNodes, string &result);
     /**
-     * @brief Check whether 2 vertexes are equa
+     * @brief Check whether 2 vertexes are equal (they have same adjacent connections)
+     */
+    bool equalNodes(  li
