@@ -76,4 +76,6 @@ public:
     /**
      * @brief Check whether 2 vertexes are equal (they have same adjacent connections)
      */
-    bool equalNodes(  li
+    bool equalNodes(  list<node> adjNodes1,   list<node> adjNodes2); 
+}; // end Graph
+// End of header file
