@@ -3,4 +3,7 @@ Course: CS202
 Homework04 main.cpp builds a weighted, undirected graph from flightDataset.txt
 The code compiled with Makefile and tested in Linux environment.
 
-Additional libraries used for reading and processing i
+Additional libraries used for reading and processing in the main.cpp file:
+- <fstream> : for file read/write
+
+NOTE: The graph built within main.cp
