@@ -6,4 +6,4 @@ The code compiled with Makefile and tested in Linux environment.
 Additional libraries used for reading and processing in the main.cpp file:
 - <fstream> : for file read/write
 
-NOTE: The graph built within main.cp
+NOTE: The graph built within main.cpp file due to constraints for including additional libraries only allowed within the main.cpp file.
